@@ -1,0 +1,43 @@
+.header {
+  background-color: #f4f7fc;
+  font-family: var(--font-roboto);
+  font-size: 1em;
+}
+
+.wrapper {
+  max-width: 1362px;
+  margin: 0 auto;
+  padding: 0 43px;
+}
+
+.top {
+  margin-bottom: 123px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.2em;
+}
+
+.logo {
+  width: 41px;
+  height: 45px;
+}
+
+.navigation ul {
+  display: flex;
+  column-gap: 56px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  width: 841px;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sf);
+  font-size: 3.25em;
+}
