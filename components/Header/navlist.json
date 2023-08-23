@@ -12,22 +12,22 @@
       {
         "id": 1,
         "title": "IT Решения",
-        "path": "/"
+        "path": "/solutions"
       },
       {
         "id": 2,
         "title": "IT Услуги",
-        "path": "/"
+        "path": "/services"
       },
       {
         "id": 3,
         "title": "Мероприятия",
-        "path": "/"
+        "path": "/events"
       },
       {
         "id": 4,
         "title": "Информация о регионе",
-        "path": "/"
+        "path": "/about"
       }
     ]
   },

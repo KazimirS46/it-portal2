@@ -3,7 +3,7 @@ import styles from './index.module.css';
 export default function Solutions() {
   return (
     <div className={styles.wrapper}>
-      <h1>IT-Решения</h1>
+      <h1>IT-Услуги</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
         aperiam debitis voluptatum ex eius recusandae distinctio cum ratione
@@ -16,6 +16,8 @@ export default function Solutions() {
         officiis, iure vero voluptatum praesentium libero earum! Error placeat
         aperiam iste enim ullam quaerat repudiandae eaque explicabo dolor odio
         suscipit possimus quae aspernatur laborum culpa rem, quidem deserunt!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+        labore ea laudantium quo maxime repellat magni quae illo, soluta ex.
       </p>
     </div>
   );
