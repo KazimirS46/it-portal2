@@ -21,6 +21,7 @@
   justify-content: space-between;
   padding: 21px 30px;
   color: var(--desc-text-color);
+  font-family: var(--font-roboto);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;

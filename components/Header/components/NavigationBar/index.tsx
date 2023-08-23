@@ -1,10 +1,8 @@
 'use client';
 
-import { useState } from 'react';
 import navItems from '../../navlist.json';
 import { NavigationItem } from '../NavigationItem';
 import styles from './index.module.css';
-import { log } from 'console';
 
 export type Submenu = {
   id: number;

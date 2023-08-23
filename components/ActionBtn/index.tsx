@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './index.module.css';
 
 export function ActionBtn() {
@@ -5,7 +6,7 @@ export function ActionBtn() {
     <div className={styles.actionContainer}>
       <ul className={styles.actionBtnList}>
         <li className={styles.actionBtnItem}>
-          <button className={styles.actionBtn}>
+          <Link href={'/solutions'} className={styles.actionBtn}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='21'
@@ -27,10 +28,10 @@ export function ActionBtn() {
             <span>
               Подобрать<br></br> готовое решение
             </span>
-          </button>
+          </Link>
         </li>
         <li className={styles.actionBtnItem}>
-          <button className={styles.actionBtn}>
+          <Link href={'/services'} className={styles.actionBtn}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
@@ -87,10 +88,10 @@ export function ActionBtn() {
               />
             </svg>
             <span>Заказать разработку</span>
-          </button>
+          </Link>
         </li>
         <li className={styles.actionBtnItem}>
-          <button className={styles.actionBtn}>
+          <Link href={'/contacts'} className={styles.actionBtn}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='21'
@@ -122,11 +123,11 @@ export function ActionBtn() {
                 strokeMiterlimit='10'
               />
             </svg>
-            <span>Инвестировать</span>
-          </button>
+            <>Инвестировать</>
+          </Link>
         </li>
         <li className={styles.actionBtnItem}>
-          <button className={styles.actionBtn}>
+          <Link href={'/about'} className={styles.actionBtn}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='21'
@@ -151,10 +152,10 @@ export function ActionBtn() {
               />
             </svg>
             <span>Получить информацию о Самарской области</span>
-          </button>
+          </Link>
         </li>
         <li className={styles.actionBtnItem}>
-          <button className={styles.actionBtn}>
+          <Link href={'/events'} className={styles.actionBtn}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='19'
@@ -179,7 +180,7 @@ export function ActionBtn() {
               <path d='M14 0V3' stroke='#0097FF' strokeWidth='1.5' />
             </svg>
             <span>Участвовать в IT-мероприятиях</span>
-          </button>
+          </Link>
         </li>
       </ul>
     </div>

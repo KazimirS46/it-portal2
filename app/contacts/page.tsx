@@ -1,9 +1,9 @@
 import styles from './index.module.css';
 
-export default function Events() {
+export default function Contacts() {
   return (
     <div className={styles.wrapper}>
-      <h1>Мероприятия</h1>
+      <h1>Контакты</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
         aperiam debitis voluptatum ex eius recusandae distinctio cum ratione
@@ -16,6 +16,8 @@ export default function Events() {
         officiis, iure vero voluptatum praesentium libero earum! Error placeat
         aperiam iste enim ullam quaerat repudiandae eaque explicabo dolor odio
         suscipit possimus quae aspernatur laborum culpa rem, quidem deserunt!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+        labore ea laudantium quo maxime repellat magni quae illo, soluta ex.
       </p>
     </div>
   );

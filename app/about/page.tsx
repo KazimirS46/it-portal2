@@ -1,6 +1,6 @@
 import styles from './index.module.css';
 
-export default function Solutions() {
+export default function About() {
   return (
     <div className={styles.wrapper}>
       <h1>Информация о регионе</h1>

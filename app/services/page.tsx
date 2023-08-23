@@ -1,6 +1,6 @@
 import styles from './index.module.css';
 
-export default function Solutions() {
+export default function Services() {
   return (
     <div className={styles.wrapper}>
       <h1>IT-Услуги</h1>

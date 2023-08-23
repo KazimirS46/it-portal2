@@ -13,6 +13,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className={styles.news}></section>
+      <section className={styles.solution}></section>
+      <section className={styles.devekjgthc}></section>
+      <section className={styles.services}></section>
+      <section className={styles.events}></section>
+      <section className={styles.projeсts}></section>
     </main>
   );
 }
