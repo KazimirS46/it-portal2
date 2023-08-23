@@ -1,7 +1,11 @@
+import styles from './main.module.css';
+
 export default function Home() {
   return (
     <main>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, enim.
+      <div className={styles.wrapper}>
+        <h2>Rjyntyn</h2>
+      </div>
     </main>
   );
 }

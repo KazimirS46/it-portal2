@@ -1,24 +1,30 @@
 .header {
-  background-color: #f4f7fc;
+  background-color: var(--header-background);
   font-family: var(--font-roboto);
   font-size: 1em;
 }
 
 .wrapper {
-  max-width: 1362px;
+  width: 1362px;
   margin: 0 auto;
   padding: 0 43px;
+  padding-top: 114px;
+  padding-bottom: 10px;
 }
 
 .top {
-  margin-bottom: 123px;
+  position: fixed;
+  top: 0;
+  width: inherit;
+  background-color: var(--header-background);
+  z-index: 1;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2.2em;
+  padding: 2em 0;
 }
 
 .logo {
@@ -26,18 +32,131 @@
   height: 45px;
 }
 
-.navigation ul {
-  display: flex;
-  column-gap: 56px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.headerContent {
+  position: relative;
 }
 
 .title {
   width: 841px;
+  padding-top: 123px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   font-family: var(--font-sf);
   font-size: 3.25em;
+}
+
+.btnSearch {
+  width: 260px;
+  padding: 18px 70px;
+  margin-bottom: 180px;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 2px solid var(--desc-text-color3);
+}
+
+.btnSearch span {
+  color: var(--desc-text-color3);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btnSearch,
+.btnSearch span {
+  transition: all 0.4s;
+}
+
+.btnSearch:hover {
+  background: var(--desc-text-color3);
+  transform: scale(1.01);
+}
+
+.btnSearch:hover span {
+  color: var(--bgr-color);
+}
+
+.description {
+  max-width: 456px;
+  margin-bottom: 11px;
+  font-family: var(--font-sf);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.5px;
+  letter-spacing: 0.42px;
+  color: var(--desc-text-color2);
+}
+
+.contactInfo {
+  margin-bottom: 190px;
+  color: var(--text-color);
+  font-family: var(--font-sf);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.5px;
+  letter-spacing: 0.42px;
+}
+
+.image {
+  position: absolute;
+  width: 559px;
+  height: auto;
+  top: 0;
+  left: 800px;
+}
+
+.actionContainer {
+  position: relative;
+}
+
+.actionBtnList {
+  width: 100%;
+  position: absolute;
+  bottom: -35px;
+  list-style: none;
+  display: flex;
+}
+
+.actionBtnItem {
+  flex: 1;
+}
+
+.actionBtn {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 21px 30px;
+  color: var(--desc-text-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  background-color: var(--bgr-color);
+  outline: none;
+  border: none;
+}
+
+.actionBtn,
+.actionBtn svg path,
+.actionBtn svg rect {
+  transition: all 0.5s;
+}
+
+.actionBtn:hover {
+  background-color: var(--desc-text-color3);
+  color: var(--bgr-color);
+  z-index: 1;
+  transform: scale(1.03);
+}
+
+.actionBtn:hover > svg path,
+.actionBtn:hover > svg rect {
+  stroke: var(--bgr-color);
+}
+
+.actionBtn span {
+  text-align: left;
 }

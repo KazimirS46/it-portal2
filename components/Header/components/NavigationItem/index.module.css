@@ -1,0 +1,31 @@
+.navItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navItem > a {
+  padding: 15px;
+  padding-right: 2px;
+  line-height: 19px;
+  transition: 0.3s;
+}
+
+.navItem:hover > a {
+  text-shadow: var(--text-shadow);
+}
+
+.active {
+  text-shadow: var(--text-shadow);
+}
+
+.button {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+}
