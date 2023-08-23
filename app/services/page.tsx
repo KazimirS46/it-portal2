@@ -1,4 +1,10 @@
+import { Metadata } from 'next';
 import styles from './index.module.css';
+
+export const metadata: Metadata = {
+  title: 'IT-Услуги',
+  description: 'IT портал самарской области',
+};
 
 export default function Services() {
   return (
