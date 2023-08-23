@@ -71,7 +71,8 @@ export default function RootLayout({
       <body
         className={`${robotoFont.variable} ${robotoMonoFont.variable} ${rubicFont.variable} ${casperFont.variable} ${sfFont.variable}`}>
         <Header />
-        {children}
+        <main>{children}</main>
+
         <Footer />
       </body>
     </html>

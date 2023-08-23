@@ -18,8 +18,8 @@ export function Hero() {
           себе
         </p>
         <p className={styles.contactInfo}>
-          Проектный офис цифрового развития ------ Info@mailmailmailm.ru, +9
-          (999) 999-99-99
+          Проектный офис цифрового развития <span>------</span>{' '}
+          Info@mailmailmailm.ru, +9 (999) 999-99-99
         </p>
       </div>
       <div className={styles.image}>

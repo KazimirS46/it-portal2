@@ -25,9 +25,12 @@
 
 body {
   width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   font-size: 16px;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -40,5 +43,6 @@ img {
 }
 
 main {
+  flex: 1;
   background-color: var(--main-bgr-color);
 }

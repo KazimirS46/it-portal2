@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import newsButton from '../../public/button/newsButton.svg';
 import news from './news.json';
-import image1 from '../../public/image/News1.png';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import styles from './index.module.css';
@@ -31,7 +31,6 @@ export function News() {
               <div className={styles.slide}>
                 <Image
                   src={news.mainImage.src}
-                  // src={image1}
                   width={440}
                   height={264}
                   alt={news.mainImage.alt}

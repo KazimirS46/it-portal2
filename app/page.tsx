@@ -5,7 +5,7 @@ import { News } from '@/components/News';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <>
       <section className={styles.hero}>
         <div className={styles.wrapper}>
           <div className={styles.heroContent}>
@@ -22,6 +22,6 @@ export default function Home() {
       <section className={styles.services}></section>
       <section className={styles.events}></section>
       <section className={styles.projeсts}></section>
-    </main>
+    </>
   );
 }

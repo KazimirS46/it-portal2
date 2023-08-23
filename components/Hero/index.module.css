@@ -45,12 +45,21 @@
 
 .contactInfo {
   margin-bottom: 55px;
+  line-height: 20.5px;
+  letter-spacing: 0.42px;
+}
+
+.contactInfo span {
+  line-height: 20.525px;
+  letter-spacing: -3.29px;
+}
+
+.contactInfo,
+.contactInfo span {
   color: var(--text-color);
   font-family: var(--font-sf);
   font-size: 14px;
   font-weight: 400;
-  line-height: 20.5px;
-  letter-spacing: 0.42px;
 }
 
 .image {
