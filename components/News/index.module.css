@@ -2,6 +2,7 @@
   max-width: var(--wrap-max-width);
   margin: 0 auto;
   padding-top: 67px;
+  padding-bottom: 42px;
 }
 
 .container {

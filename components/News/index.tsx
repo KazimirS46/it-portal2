@@ -30,8 +30,8 @@ export function News() {
             <SwiperSlide key={news.id}>
               <div className={styles.slide}>
                 <Image
-                  // src={news.mainImage.src}
-                  src={image1}
+                  src={news.mainImage.src}
+                  // src={image1}
                   width={440}
                   height={264}
                   alt={news.mainImage.alt}

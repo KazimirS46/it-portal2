@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './index.module.css';
 
 export function Footer() {
@@ -6,11 +7,17 @@ export function Footer() {
       <div className={styles.wrapper}>
         <div className={styles.footerContainer}>
           <div className={styles.info}>
-            <p>©</p>
-            <p>IT-Портал Самара</p>
-            <p>2020</p>
+            <p className={styles.symbol}>©</p>
+            <p className={styles.title}>IT-Портал Самара</p>
+            <p className={styles.date}>2020</p>
           </div>
-          <div className={styles.logo}>Logo</div>
+          <div className={styles.logo}>
+            <Image
+              src={'/icon/logoMain.svg'}
+              width={32}
+              height={32}
+              alt='logo'></Image>
+          </div>
         </div>
       </div>
     </footer>

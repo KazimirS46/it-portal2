@@ -2,7 +2,7 @@
   {
     "id": 0,
     "mainImage": {
-      "src": "/../../../public/image/News1.png",
+      "src": "/image/News1.png",
       "alt": "Photo"
     },
     "title": "Названы регионы - лидеры по социально-экономическому развитию",
@@ -11,7 +11,7 @@
   {
     "id": 1,
     "mainImage": {
-      "src": "/../../../public/image/News1.png",
+      "src": "/image/Image2.jpg",
       "alt": "Photo"
     },
     "title": "Индия успешно посадила космический аппарат на Луну",
