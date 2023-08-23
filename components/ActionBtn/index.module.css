@@ -34,7 +34,7 @@
 .actionBtn,
 .actionBtn svg path,
 .actionBtn svg rect {
-  transition: all 0.5s;
+  transition: all var(--transition);
 }
 
 .actionBtn:hover {

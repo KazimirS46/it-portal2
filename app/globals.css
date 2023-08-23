@@ -11,6 +11,7 @@
   --submenu-bgr: #eef8ff;
   --submenu-shadow: 0px 6px 24px 0px rgba(97, 115, 147, 0.12);
   --desc-text-color3: #0097ff;
+  --transition: 0.15s;
 }
 
 * {

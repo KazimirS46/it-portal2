@@ -8,7 +8,7 @@
   padding: 15px;
   padding-right: 2px;
   line-height: 19px;
-  transition: 0.3s;
+  transition: var(--transition);
 }
 
 .navItem:hover > a {
