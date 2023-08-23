@@ -3,3 +3,47 @@
   margin: 0 auto;
   padding-top: 67px;
 }
+
+.container {
+  background-color: var(--bgr-color);
+}
+
+.slide {
+  display: flex;
+}
+
+.slide img {
+  width: 440px;
+}
+
+.article {
+  position: relative;
+  padding: 24px 32px;
+  font-family: var(--font-roboto);
+  color: var(--desc-text-color);
+}
+
+.article h2 {
+  margin-bottom: 81px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.5px;
+  letter-spacing: 0.44px;
+}
+
+.article p {
+  max-width: 426px;
+  margin-left: 321px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.article img {
+  position: absolute;
+  left: 32px;
+  bottom: 28px;
+  width: 24px;
+  height: auto;
+  padding: 3px;
+}
