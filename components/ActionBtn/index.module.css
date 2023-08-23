@@ -29,19 +29,22 @@
   background-color: var(--bgr-color);
   outline: none;
   border: none;
+  z-index: 0;
 }
 
 .actionBtn,
 .actionBtn svg path,
 .actionBtn svg rect {
-  transition: all var(--transition);
+  transition: background var(--transition);
+  transition: color var(--transition);
+  transition: transform var(--transition) cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .actionBtn:hover {
   background-color: var(--desc-text-color3);
   color: var(--bgr-color);
   z-index: 1;
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .actionBtn:hover > svg path,
