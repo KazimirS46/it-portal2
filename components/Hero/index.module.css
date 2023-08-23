@@ -8,33 +8,28 @@
 }
 
 .btnSearch {
+  display: block;
   width: 260px;
   padding: 18px 70px;
   margin-bottom: 180px;
   background-color: transparent;
   border-radius: 40px;
   border: 2px solid var(--desc-text-color3);
-}
-
-.btnSearch a {
   color: var(--desc-text-color3);
+  font-family: var(--font-roboto);
   font-size: 15px;
   font-weight: 700;
   line-height: 24px;
 }
 
-.btnSearch,
-.btnSearch a {
-  transition: all 0.4s;
+.btnSearch {
+  transition: all 0.15s;
 }
 
 .btnSearch:hover {
   background: var(--desc-text-color3);
-  transform: scale(1.01);
-}
-
-.btnSearch:hover a {
   color: var(--bgr-color);
+  transform: scale(1.01);
 }
 
 .description {

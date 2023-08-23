@@ -8,11 +8,11 @@ export function Hero() {
     <>
       <div className={styles.info}>
         <h1 className={styles.title}>
-          Портал цифровых решений <br></br>и инициатив Самарской области
+          Портал цифровых решений <br></br>и инициатив Чуйской Долины
         </h1>
-        <button className={styles.btnSearch}>
-          <Link href={'/'}>Найти решение</Link>
-        </button>
+        <Link href={'/solutions'} className={styles.btnSearch}>
+          Найти решение
+        </Link>
         <p className={styles.description}>
           Инвестору поможем подобрать проект, разработчикам поможем рассказать о
           себе
