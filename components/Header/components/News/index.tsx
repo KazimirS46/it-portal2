@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
-import newsButton from '../../public/button/newsButton.svg';
+import newsButton from '../../../../public/button/newsButton.svg';
 import news from './news.json';
 
 import 'swiper/css';

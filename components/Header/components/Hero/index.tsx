@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import heroImage from '../../public/image/headerImage.png';
+import heroImage from '../../../../public/image/headerImage.png';
 import styles from './index.module.css';
 import Link from 'next/link';
 

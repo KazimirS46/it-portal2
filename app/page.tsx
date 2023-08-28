@@ -1,7 +1,7 @@
-import { Hero } from '@/components/Hero';
+import { Hero } from '@/components/Header/components/Hero';
 import styles from './main.module.css';
-import { ActionBtn } from '@/components/ActionBtn';
-import { News } from '@/components/News';
+import { ActionBtn } from '@/components/Header/components/ActionBtn';
+import { News } from '@/components/Header/components/News';
 
 export default function Home() {
   return (
