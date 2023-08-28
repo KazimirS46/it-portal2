@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import styles from './index.module.css';
+import { DropMenu } from '@/components/DropMenu';
 
 export const metadata: Metadata = {
   title: 'IT-Решения',
@@ -8,21 +9,13 @@ export const metadata: Metadata = {
 
 export default function Solutions() {
   return (
-    <div className={styles.wrapper}>
-      <h1>IT-Решения</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-        aperiam debitis voluptatum ex eius recusandae distinctio cum ratione
-        inventore, explicabo eveniet. Laboriosam cupiditate blanditiis non, in
-        labore porro quos dolorem ad minus dolore magnam provident tempore saepe
-        sapiente accusantium omnis odit iusto neque, autem veritatis harum
-        molestias illum hic. At, ipsa deleniti pariatur veniam repellendus
-        laboriosam ex! Iste blanditiis impedit nobis inventore asperiores quod
-        delectus accusantium eveniet, repellendus nemo illo voluptatibus amet
-        officiis, iure vero voluptatum praesentium libero earum! Error placeat
-        aperiam iste enim ullam quaerat repudiandae eaque explicabo dolor odio
-        suscipit possimus quae aspernatur laborum culpa rem, quidem deserunt!
-      </p>
-    </div>
+    <section className={styles.wrapper}>
+      <div className={styles.headContainer}>
+        <h2>IT-Решения</h2>
+        <div className={styles.dropDownMenu}>
+          <DropMenu props={[]} />
+        </div>
+      </div>
+    </section>
   );
 }

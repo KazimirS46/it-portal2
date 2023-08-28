@@ -2,17 +2,6 @@
   background-color: var(--header-bgr);
 }
 
-.wrapper {
-  max-width: var(--wrap-max-width);
-  margin: 0 auto;
-  padding: 0 1px;
-  padding-top: 113px;
-}
-
-.heroContent {
-  position: relative;
-}
-
 .news {
   background-color: var(--main-bgr-color);
 }

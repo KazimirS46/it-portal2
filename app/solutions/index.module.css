@@ -1,5 +1,10 @@
 .wrapper {
-  padding-top: 113px;
+  padding-top: 153px;
   max-width: 1362px;
   margin: 0 auto;
+}
+
+.headContainer {
+  display: flex;
+  justify-content: space-between;
 }

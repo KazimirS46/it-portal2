@@ -3,29 +3,17 @@
   background-color: var(--header-bgr);
   font-family: var(--font-roboto);
   font-size: 1em;
-  position: fixed;
   margin: 0 auto;
   z-index: 200;
 }
 
 .wrapper {
-  max-width: 1362px;
+  width: var(--wrap-max-width);
   margin: 0 auto;
+  padding: 0 1px;
+  padding-top: 113px;
 }
 
-.top {
-  background-color: var(--header-bgr);
-  z-index: 1;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2em 0;
-}
-
-.logo {
-  width: 41px;
-  height: 45px;
+.heroContent {
+  position: relative;
 }
