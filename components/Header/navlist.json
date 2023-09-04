@@ -31,43 +31,43 @@
       }
     ]
   },
-  { "id": 1, "title": "IT Компаниям", "path": "/", "submenu": [] },
+  { "id": 1, "title": "IT Компаниям", "path": "/for_companies", "submenu": [] },
   {
     "id": 2,
     "title": "Программистам ",
-    "path": "/",
+    "path": "/for_programmers",
     "submenu": [
       {
         "id": 0,
         "title": "Компании",
-        "path": "/"
+        "path": "/companies"
       },
       {
         "id": 1,
         "title": "Конференции/мероприятия",
-        "path": "/"
+        "path": "/events"
       }
     ]
   },
   {
     "id": 3,
     "title": "Абитуриентам",
-    "path": "/",
+    "path": "/universities",
     "submenu": [
       {
         "id": 0,
         "title": "Вузы",
-        "path": "/"
+        "path": "/universities"
       },
       {
         "id": 1,
         "title": "Среднее проф.образование",
-        "path": "/"
+        "path": "/secondary_education"
       },
       {
         "id": 2,
         "title": "Мероприятия",
-        "path": "/"
+        "path": "/events_for_applicants"
       }
     ]
   },

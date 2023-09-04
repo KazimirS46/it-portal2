@@ -18,13 +18,15 @@
   transition: all var(--transition);
 }
 
-.subItem:first-child {
+.subItemActive {
+  padding: 7px 30px;
   color: var(--desc-text-color3);
   font-size: 16px;
   font-weight: 700;
 }
 
-.subItem:not(.subItem:first-child):hover {
+.subItem:hover,
+.subItemActive:hover {
   background: var(--submenu-bgr);
   color: var(--desc-text-color3);
 }
