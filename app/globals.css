@@ -24,6 +24,7 @@
 }
 
 body {
+  position: relative;
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
@@ -45,6 +46,13 @@ img {
 main {
   flex: 1;
   background-color: var(--main-bgr-color);
+}
+
+.wrapper {
+  width: var(--wrap-max-width);
+  margin: 0 auto;
+  padding: 0 1px;
+  padding-top: 113px;
 }
 
 h2 {
