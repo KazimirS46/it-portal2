@@ -51,27 +51,3 @@ main {
 section {
   background-color: var(--main-bgr-color);
 }
-
-section:first-child {
-  background-color: var(--header-bgr);
-}
-
-.wrapper {
-  width: var(--wrap-max-width);
-  margin: 0 auto;
-  padding: 0 1px;
-  padding-top: 113px;
-}
-
-h2 {
-  color: var(--desc-text-color, #313131);
-
-  /* 1440 / H3 */
-  font-family: var(--font-roboto);
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 110%; /* 44px */
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-}

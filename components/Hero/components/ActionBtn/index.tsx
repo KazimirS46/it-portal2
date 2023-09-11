@@ -151,7 +151,7 @@ export function ActionBtn() {
                 strokeWidth='1.5'
               />
             </svg>
-            <span>Получить информацию о Самарской области</span>
+            <span>Получить информацию о Регионе</span>
           </Link>
         </li>
         <li className={styles.actionBtnItem}>

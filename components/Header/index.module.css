@@ -9,7 +9,7 @@
   z-index: 200;
 }
 
-.wrapper {
+.navWrapper {
   width: var(--wrap-max-width);
   margin: 0 auto;
   padding: 0 1px;

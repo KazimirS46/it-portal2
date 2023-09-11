@@ -23,28 +23,35 @@ interface INews {
 
 export function News() {
   return (
-    <div className={styles.container}>
-      <div className={styles.slideContainer}>
-        <Swiper navigation={true} modules={[Navigation]} className='mySwiper'>
-          {news.map((news: INews) => (
-            <SwiperSlide key={news.id}>
-              <div className={styles.slide}>
-                <Image
-                  src={news.mainImage.src}
-                  width={440}
-                  height={264}
-                  alt={news.mainImage.alt}
-                />
-                <article className={styles.article}>
-                  <h2>{news.title}</h2>
-                  <p>{news.description}</p>
-                  <Image src={newsButton} width={440} alt='button' />
-                </article>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+    <section>
+      <div className={styles.wrapper}>
+        <div className={styles.container}>
+          <div className={styles.slideContainer}>
+            <Swiper
+              navigation={true}
+              modules={[Navigation]}
+              className='mySwiper'>
+              {news.map((news: INews) => (
+                <SwiperSlide key={news.id}>
+                  <div className={styles.slide}>
+                    <Image
+                      src={news.mainImage.src}
+                      width={440}
+                      height={264}
+                      alt={news.mainImage.alt}
+                    />
+                    <article className={styles.article}>
+                      <h2>{news.title}</h2>
+                      <p>{news.description}</p>
+                      <Image src={newsButton} width={440} alt='button' />
+                    </article>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

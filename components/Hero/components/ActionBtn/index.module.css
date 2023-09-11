@@ -1,6 +1,6 @@
 .actionContainer {
   position: relative;
-  margin-bottom: -25px;
+  top: 25px;
 }
 
 .actionBtnList {

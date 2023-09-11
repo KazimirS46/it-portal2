@@ -1,3 +1,12 @@
+.heroSection {
+  background-color: var(--header-bgr);
+}
+
+.wrapper {
+  width: var(--wrap-max-width);
+  margin: 0 auto;
+}
+
 .container {
   padding-top: 113px;
 }
