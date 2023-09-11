@@ -8,7 +8,7 @@ export function HeroTop() {
     <>
       <div className={styles.info}>
         <h1 className={styles.title}>
-          Портал цифровых решений <br></br>и инициатив Чуйской Долины
+          Портал цифровых решений <br></br>и инициатив Региона
         </h1>
         <Link href={'/solutions'} className={styles.btnSearch}>
           Найти решение

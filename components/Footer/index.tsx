@@ -8,8 +8,8 @@ export function Footer() {
         <div className={styles.footerContainer}>
           <div className={styles.info}>
             <p className={styles.symbol}>©</p>
-            <p className={styles.title}>IT-Портал Самара</p>
-            <p className={styles.date}>2020</p>
+            <p className={styles.title}>IT-Портал Региона</p>
+            <p className={styles.date}>2023</p>
           </div>
           <div className={styles.logo}>
             <Image
