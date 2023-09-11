@@ -4,7 +4,7 @@ import styles from './index.module.css';
 
 export function Hero() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.container}>
       <div className={styles.heroContent}>
         <HeroTop />
         <ActionBtn />

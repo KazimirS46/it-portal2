@@ -48,6 +48,14 @@ main {
   background-color: var(--main-bgr-color);
 }
 
+section {
+  background-color: var(--main-bgr-color);
+}
+
+section:first-child {
+  background-color: var(--header-bgr);
+}
+
 .wrapper {
   width: var(--wrap-max-width);
   margin: 0 auto;

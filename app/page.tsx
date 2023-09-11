@@ -1,21 +1,17 @@
 import { News } from '@/components/News';
 import styles from './main.module.css';
 import { Hero } from '@/components/Hero';
+import Section from '@/components/Section';
 
 export default function Home() {
   return (
     <>
-      <section className={styles.hero}>
+      <Section>
         <Hero />
-      </section>
-      <section className={styles.news}>
+      </Section>
+      <Section>
         <News />
-      </section>
-      <section className={styles.solution}></section>
-      <section className={styles.devekjgthc}></section>
-      <section className={styles.services}></section>
-      <section className={styles.events}></section>
-      <section className={styles.projeсts}></section>
+      </Section>
     </>
   );
 }

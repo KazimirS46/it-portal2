@@ -1,11 +1,8 @@
-.wrapper {
-  max-width: var(--wrap-max-width);
-  margin: 0 auto;
-  padding-top: 67px;
-  padding-bottom: 42px;
+.container {
+  padding: 68px 0;
 }
 
-.container {
+.slideContainer {
   background-color: var(--bgr-color);
 }
 
@@ -25,11 +22,13 @@
 }
 
 .article h2 {
+  width: 56%;
   margin-bottom: 81px;
   font-size: 20px;
   font-weight: 500;
   line-height: 25.5px;
   letter-spacing: 0.44px;
+  text-transform: none;
 }
 
 .article p {

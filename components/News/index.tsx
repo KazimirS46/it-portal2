@@ -5,7 +5,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import newsButton from '../../public/button/newsButton.svg';
-import news from './news.json';
+import news from '../../public/jsons/news.json';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -23,8 +23,8 @@ interface INews {
 
 export function News() {
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.container}>
+    <div className={styles.container}>
+      <div className={styles.slideContainer}>
         <Swiper navigation={true} modules={[Navigation]} className='mySwiper'>
           {news.map((news: INews) => (
             <SwiperSlide key={news.id}>
