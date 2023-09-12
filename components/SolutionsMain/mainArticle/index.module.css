@@ -1,0 +1,33 @@
+.article {
+  position: relative;
+  color: var(--desc-text-color);
+  font-family: var(--font-roboto);
+  font-style: normal;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.navContainer h3 {
+  font-size: 25px;
+}
+
+.linkTitle {
+  font-size: 12px;
+  letter-spacing: 0.12px;
+}
+
+.navContainer h3,
+.linkTitle {
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.sliderContainer {
+  position: relative;
+  margin-bottom: 68px;
+}

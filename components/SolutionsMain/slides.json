@@ -1,0 +1,48 @@
+[
+  {
+    "covid": [
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Doctor Call",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "HSE RMS",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Brealit",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Doctor EECall",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Doctor 234234Call",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Doctor3465346346 Call",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  }
+]

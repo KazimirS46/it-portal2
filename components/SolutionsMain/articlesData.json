@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "title": "Covid-19",
+    "linkName": "Показать все решения категории",
+    "path": "/solutions"
+  },
+  {
+    "id": 1,
+    "title": "E-learning & Education",
+    "linkName": "",
+    "path": "/"
+  },
+  {
+    "id": 2,
+    "title": "Healthcare",
+    "linkName": "",
+    "path": "/"
+  },
+  {
+    "id": 3,
+    "title": "Agro-idustries",
+    "linkName": "",
+    "path": "/"
+  },
+  {
+    "id": 4,
+    "title": "Industry & Logistic",
+    "linkName": "",
+    "path": "/"
+  },
+  {
+    "id": 5,
+    "title": "Средства разработки",
+    "linkName": "",
+    "path": "/"
+  }
+]

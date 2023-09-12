@@ -27,10 +27,7 @@ export function News() {
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <div className={styles.slideContainer}>
-            <Swiper
-              navigation={true}
-              modules={[Navigation]}
-              className='mySwiper'>
+            <Swiper navigation={true} modules={[Navigation]}>
               {news.map((news: INews) => (
                 <SwiperSlide key={news.id}>
                   <div className={styles.slide}>
