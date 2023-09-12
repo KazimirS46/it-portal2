@@ -2,10 +2,10 @@ import Link from 'next/link';
 import styles from './index.module.css';
 import 'swiper/css';
 import Slider from '../Slider';
-import { Data } from '@/types/types';
+import { SolutionsData } from '@/types/types';
 
 interface IProps {
-  props: Data;
+  props: SolutionsData;
 }
 
 export default function MainArticle({ props }: IProps) {

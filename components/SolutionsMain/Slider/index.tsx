@@ -3,10 +3,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Slide from '../Slide';
-import { slidesData } from '@/types/types';
+import { SlidesSolutionsData } from '@/types/types';
 
 interface IProps {
-  data: slidesData[];
+  data: SlidesSolutionsData[];
 }
 
 export default function Slider({ data }: IProps) {

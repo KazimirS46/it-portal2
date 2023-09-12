@@ -1,9 +1,9 @@
-import { slidesData } from '@/types/types';
+import { SlidesSolutionsData } from '@/types/types';
 import styles from './index.module.css';
 import Image from 'next/image';
 
 interface IProps {
-  props: slidesData;
+  props: SlidesSolutionsData;
 }
 
 export default function Slide({ props }: IProps) {

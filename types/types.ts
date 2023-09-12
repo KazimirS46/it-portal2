@@ -1,4 +1,4 @@
-export type slidesData = {
+export type SlidesSolutionsData = {
   id: number;
   imageUrl: string;
   logoUrl: string;
@@ -7,10 +7,27 @@ export type slidesData = {
   info: string;
 };
 
-export type Data = {
+export type SolutionsData = {
   id: number;
   title: string;
   linkName: string;
   path: string;
-  slides: slidesData[];
+  slides: SlidesSolutionsData[];
+};
+
+export type DeveloperTags = {
+  id: number;
+  title: string;
+};
+export type DeveloperCompany = {
+  id: number;
+  logoUrl: string;
+  title: string;
+  description: string;
+  tags: DeveloperTags[];
+};
+
+export type DeveloperData = {
+  title: string;
+  company: DeveloperCompany[];
 };

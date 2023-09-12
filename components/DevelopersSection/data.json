@@ -1,0 +1,213 @@
+{
+  "title": "Ведущие разработчики",
+  "company": [
+    {
+      "id": 0,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Name - lightning",
+      "description": "Lorem ipsum dolor sit amet.",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Дизайн"
+        },
+        {
+          "id": 1,
+          "title": "Разработка"
+        },
+        {
+          "id": 2,
+          "title": "Eventicious"
+        },
+        {
+          "id": 3,
+          "title": "Mobile"
+        },
+        {
+          "id": 4,
+          "title": "iOS"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Company Name",
+      "description": "Lorem ipsum dolor sit amet. Lorem ipsum Lorem ipsum dolor sit amet dolor dolor sit amet",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Sherlock Taxi"
+        },
+        {
+          "id": 1,
+          "title": "Cuba Platform"
+        },
+        {
+          "id": 2,
+          "title": "Enterprise"
+        },
+        {
+          "id": 3,
+          "title": "Thesis"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Company Name",
+      "description": "Lorem ipsum dolor sit amet.",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Образование"
+        },
+        {
+          "id": 1,
+          "title": "Сетевой город"
+        },
+        {
+          "id": 2,
+          "title": "NetSchool"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Company Name",
+      "description": "Lorem ipsum dolor sit amet.",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Дизайн"
+        },
+        {
+          "id": 1,
+          "title": "Разработка"
+        },
+        {
+          "id": 2,
+          "title": "Web"
+        },
+        {
+          "id": 3,
+          "title": "Mobile"
+        },
+        {
+          "id": 4,
+          "title": "Android"
+        },
+        {
+          "id": 5,
+          "title": "iOS"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Company Name",
+      "description": "Lorem ipsum dolor sit amet.",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Дизайн"
+        },
+        {
+          "id": 1,
+          "title": "Разработка"
+        },
+        {
+          "id": 2,
+          "title": "Eventicious"
+        },
+        {
+          "id": 3,
+          "title": "Mobile"
+        },
+        {
+          "id": 4,
+          "title": "iOS"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Company Name",
+      "description": "Lorem ipsum dolor sit amet.",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Sherlock Taxi"
+        },
+        {
+          "id": 1,
+          "title": "Cuba Platform"
+        },
+        {
+          "id": 2,
+          "title": "Enterprise"
+        },
+        {
+          "id": 3,
+          "title": "Thesis"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Company Name",
+      "description": "Lorem ipsum dolor sit amet.",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Образование"
+        },
+        {
+          "id": 1,
+          "title": "Сетевой город"
+        },
+        {
+          "id": 2,
+          "title": "NetSchool"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "logoUrl": "/icon/demoLogoCompany.svg",
+      "title": "Company Name",
+      "description": "Lorem ipsum dolor sit amet.",
+      "tags": [
+        {
+          "id": 0,
+          "title": "Дизайн"
+        },
+        {
+          "id": 1,
+          "title": "Разработка"
+        },
+        {
+          "id": 2,
+          "title": "Web"
+        },
+        {
+          "id": 3,
+          "title": "Mobile"
+        },
+        {
+          "id": 4,
+          "title": "Android"
+        },
+        {
+          "id": 5,
+          "title": "iOS"
+        }
+      ]
+    }
+  ]
+}

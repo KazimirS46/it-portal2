@@ -21,7 +21,7 @@ interface INews {
   description: string;
 }
 
-export function News() {
+export default function News() {
   return (
     <section>
       <div className={styles.wrapper}>
