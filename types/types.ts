@@ -31,3 +31,9 @@ export type DeveloperData = {
   title: string;
   company: DeveloperCompany[];
 };
+
+export type Service = {
+  id: number;
+  title: string;
+  serviceName: string;
+};
