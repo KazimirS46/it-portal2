@@ -54,7 +54,10 @@ section {
 }
 
 section:nth-child(3) .swiper,
-section:nth-child(4) .swiper {
+section:nth-child(4) .swiper,
+section:nth-child(5) .swiper,
+section:nth-child(6) .swiper,
+section:nth-child(7) .swiper {
   position: relative;
   overflow-x: visible;
 }
@@ -62,7 +65,13 @@ section:nth-child(4) .swiper {
 section:nth-child(3) .swiper::before,
 section:nth-child(3) .swiper::after,
 section:nth-child(4) .swiper::before,
-section:nth-child(4) .swiper::after {
+section:nth-child(4) .swiper::after,
+section:nth-child(5) .swiper::before,
+section:nth-child(5) .swiper::after,
+section:nth-child(7) .swiper::before,
+section:nth-child(7) .swiper::after,
+section:nth-child(6) .swiper::before,
+section:nth-child(6) .swiper::after {
   position: absolute;
   content: '';
   top: 0;
@@ -72,13 +81,19 @@ section:nth-child(4) .swiper::after {
 }
 
 section:nth-child(3) .swiper::before,
-section:nth-child(4) .swiper::before {
+section:nth-child(4) .swiper::before,
+section:nth-child(5) .swiper::before,
+section:nth-child(7) .swiper::before,
+section:nth-child(6) .swiper::before {
   left: -30%;
   background: linear-gradient(to left, transparent, var(--main-bgr-color) 40%);
 }
 
 section:nth-child(3) .swiper::after,
-section:nth-child(4) .swiper::after {
+section:nth-child(4) .swiper::after,
+section:nth-child(5) .swiper::after,
+section:nth-child(7) .swiper::after,
+section:nth-child(6) .swiper::after {
   right: -30%;
   background: linear-gradient(to right, transparent, var(--main-bgr-color) 40%);
 }

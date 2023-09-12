@@ -6,6 +6,7 @@
   height: 360px;
   padding: 24px 28px;
   background-color: #fff;
+  cursor: grab;
 }
 
 .top {

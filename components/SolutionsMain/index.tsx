@@ -8,7 +8,7 @@ export default function SolutionsMain() {
     <section>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <h1 className={styles.sectionTitle}>Решения</h1>
+          <h2 className={styles.sectionTitle}>Решения</h2>
           <ul>
             {dataItems.map((data) => (
               <li key={data.id}>
