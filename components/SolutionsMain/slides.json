@@ -44,5 +44,109 @@
         "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
       }
     ]
+  },
+  {
+    "learning": [
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "eventicious",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 1,
+        "logo": "/",
+        "title": "Сетевой город. Образование",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 2,
+        "logo": "/",
+        "title": "HSE LMS",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "healthcare": [
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Pirogov",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "idustries": [
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "I-can-farm",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 1,
+        "logo": "/",
+        "title": "Smart agro platform",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "logistic": [
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Thesis",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 1,
+        "logo": "/",
+        "title": "Cuba platform",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 2,
+        "logo": "/",
+        "title": "Sherlock taxi",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "development": [
+      {
+        "id": 0,
+        "logo": "/",
+        "title": "Angular",
+        "description": "Angular - это фреймворк с открытым исходным кодом, который используется для разработки одностраничного приложения (SPA)",
+        "info": "Он расширяет HTML-код в приложении и интерпретирует атрибуты для выполнения привязки данных."
+      },
+      {
+        "id": 1,
+        "logo": "/",
+        "title": "React",
+        "description": "Созданный Facebook фреймворк React",
+        "info": "н используется для разработки и управления динамическим пользовательским интерфейсом веб-страниц с высоким входящим трафиком. В нем используется виртуальный DOM, и, следовательно, интеграция с любым приложением становится более простой."
+      },
+      {
+        "id": 2,
+        "logo": "/",
+        "title": "Vue.js",
+        "description": "Это надежная платформа для кроссплатформенной разработки.",
+        "info": "Несмотря на то, что этот фреймворк JavaScript был разработан в 2016 году, он уже вышел на рынок и доказал свою ценность, предлагая множество функций. Режим двойной интеграции является одной из наиболее привлекательных функций для создания SPA высокого класса."
+      }
+    ]
   }
 ]

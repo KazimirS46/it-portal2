@@ -2,19 +2,19 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import styles from './index.module.css';
+import Slide from '../Slide';
+import { slidesData } from '@/types/types';
 
-export default function Slider() {
-  const slides = ['один', 'Два', 'Три', 'Четыре'];
+interface IProps {
+  data: slidesData[];
+}
+
+export default function Slider({ data }: IProps) {
   return (
     <>
-      <Swiper slidesPerView={3} spaceBetween={30}>
-        {slides.map((slide) => (
-          <SwiperSlide key={0}>
-            <div className={styles.slide}>
-              <h3>{slide}</h3>
-            </div>
-          </SwiperSlide>
+      <Swiper slidesPerView={3} spaceBetween={8}>
+        {data.map((slide) => (
+          <SwiperSlide key={slide.id}>{<Slide props={slide} />}</SwiperSlide>
         ))}
       </Swiper>
     </>

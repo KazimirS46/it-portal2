@@ -1,0 +1,51 @@
+.slide {
+  width: 440px;
+  height: 380px;
+  background-color: #fff;
+  color: var(--desc-text-color);
+  font-family: var(--font-roboto);
+  font-style: normal;
+}
+
+.bottom {
+  padding: 30px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -6px;
+  margin-bottom: 18px;
+}
+
+.head h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 135%;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+}
+
+.head img {
+  margin-right: -2px;
+}
+
+.description,
+.info {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.description {
+  margin-bottom: 8px;
+  font-weight: 500;
+  -webkit-line-clamp: 2;
+}
+.info {
+  font-weight: 400;
+  -webkit-line-clamp: 2;
+}

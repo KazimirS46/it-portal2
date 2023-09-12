@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import styles from './index.module.css';
-import { Data } from '..';
 import 'swiper/css';
 import Slider from '../Slider';
+import { Data } from '@/types/types';
 
 interface IProps {
   props: Data;
@@ -18,7 +18,7 @@ export default function MainArticle({ props }: IProps) {
         </Link>
       </div>
       <div className={styles.sliderContainer}>
-        <Slider />
+        <Slider data={props.slides} />
       </div>
     </div>
   );

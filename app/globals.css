@@ -52,6 +52,31 @@ section {
   background-color: var(--main-bgr-color);
 }
 
+section:nth-child(3) .swiper {
+  position: relative;
+  overflow-x: visible;
+}
+
+section:nth-child(3) .swiper::before,
+section:nth-child(3) .swiper::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  width: 30%;
+  height: 100%;
+  z-index: 10;
+}
+
+section:nth-child(3) .swiper::before {
+  left: -30%;
+  background: linear-gradient(to left, transparent, var(--main-bgr-color) 40%);
+}
+
+section:nth-child(3) .swiper::after {
+  right: -30%;
+  background: linear-gradient(to right, transparent, var(--main-bgr-color) 40%);
+}
+
 ul {
   padding: 0;
   margin: 0;
