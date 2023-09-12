@@ -7,8 +7,6 @@ interface IProps {
 }
 
 export default function Slide({ props }: IProps) {
-  console.log(props);
-
   return (
     <>
       <div className={styles.slide}>
