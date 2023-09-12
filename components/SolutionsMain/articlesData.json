@@ -130,8 +130,8 @@
   {
     "id": 4,
     "title": "Industry & Logistic",
-    "linkName": "",
-    "path": "/",
+    "linkName": "Показать все решения категории",
+    "path": "/solutions",
     "slides": [
       {
         "id": 0,
