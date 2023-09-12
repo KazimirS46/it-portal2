@@ -45,3 +45,11 @@ export type EventData = {
   date: string;
   description: string;
 };
+
+export type ProjectData = {
+  id: number;
+  logoUrl: string;
+  title: string;
+  info: string;
+  description: string;
+};

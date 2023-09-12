@@ -1,0 +1,45 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 326px;
+  height: 280px;
+  padding: 28px;
+  background-color: #fff;
+  cursor: grab;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -4px;
+}
+
+.top h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 135%;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+}
+
+.info,
+.description {
+  font-size: 14px;
+  line-height: 140%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.info {
+  margin-bottom: 8px;
+  font-weight: 500;
+  -webkit-line-clamp: 2;
+}
+
+.description {
+  font-weight: 400;
+  -webkit-line-clamp: 4;
+}
