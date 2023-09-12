@@ -37,3 +37,11 @@ export type Service = {
   title: string;
   serviceName: string;
 };
+
+export type EventData = {
+  id: number;
+  imageUrl: string;
+  title: string;
+  date: string;
+  description: string;
+};

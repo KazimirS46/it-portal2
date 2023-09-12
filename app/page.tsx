@@ -1,4 +1,5 @@
 import DeveloperSection from '@/components/DevelopersSection';
+import EventsSection from '@/components/EventsSection';
 import Hero from '@/components/HeroSection';
 import News from '@/components/NewsSection';
 import ServicesSection from '@/components/ServicesSection';
@@ -12,6 +13,7 @@ export default function Home() {
       <SolutionsMain />
       <DeveloperSection />
       <ServicesSection />
+      <EventsSection />
     </>
   );
 }
