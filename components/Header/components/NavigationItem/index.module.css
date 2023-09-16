@@ -11,14 +11,6 @@
   transition: var(--transition);
 }
 
-.navItem:hover > a {
-  text-shadow: var(--text-shadow);
-}
-
-.active {
-  text-shadow: var(--text-shadow);
-}
-
 .button {
   display: block;
   width: 20px;

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import openButton from '../../../../public/button/openButton.svg';
 import styles from './index.module.css';
-import { NavItem, Submenu } from '../NavigationBar';
+import { NavItem } from '../NavigationBar';
 import { useState } from 'react';
 import { NavigationSubMenu } from '../NavigationSubMenu';
 

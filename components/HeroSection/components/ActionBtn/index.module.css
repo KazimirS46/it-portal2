@@ -10,7 +10,17 @@
 }
 
 .actionBtnItem {
+  position: relative;
   flex: 1;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bgr-color);
+  transition: background var(--transition);
+  transition: transform var(--transition) cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .actionBtn {
@@ -27,10 +37,33 @@
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  background-color: var(--bgr-color);
+  background-color: transparent;
   outline: none;
   border: none;
   z-index: 0;
+}
+
+.divider {
+  position: absolute;
+  width: 1px;
+  height: 90.5%;
+  top: 4.7%;
+  right: 0;
+  border-left: 1px solid #ededed;
+}
+
+.actionBtnItem:last-child .divider,
+.actionBtn:hover .divider {
+  display: none;
+}
+
+.actionBtnItem:hover {
+  z-index: 1;
+}
+
+.actionBtnItem:hover .background {
+  background-color: var(--desc-text-color3);
+  transform: scale(1.02);
 }
 
 .actionBtn,
@@ -42,10 +75,7 @@
 }
 
 .actionBtn:hover {
-  background-color: var(--desc-text-color3);
   color: var(--bgr-color);
-  z-index: 1;
-  transform: scale(1.02);
 }
 
 .actionBtn:hover > svg path,
