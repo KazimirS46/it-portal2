@@ -48,6 +48,7 @@ header {
   position: fixed;
   width: 100vw;
   background-color: var(--header-bgr);
+  z-index: 2;
 }
 
 main {
