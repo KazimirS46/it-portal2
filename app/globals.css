@@ -46,7 +46,6 @@ img {
 
 main {
   flex: 1;
-  background-color: var(--main-bgr-color);
 }
 
 section {
