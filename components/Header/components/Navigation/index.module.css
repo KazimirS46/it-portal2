@@ -38,6 +38,7 @@
 .containerClose,
 .containerOpen {
   position: absolute;
+  z-index: -1;
   top: 89.98%;
   left: 0;
   display: flex;
@@ -45,9 +46,9 @@
   align-items: center;
   flex: 1;
   padding: 0 3.765%;
-  width: 92.471%;
+  width: 100%;
   max-width: 100%;
-  background-color: var(--hr-bgr-color);
+  background-color: var(--header-bgr);
   transition: transform 1s;
 }
 

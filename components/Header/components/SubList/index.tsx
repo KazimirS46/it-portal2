@@ -1,6 +1,6 @@
-import { SubNavItem } from '@/types';
 import styles from './index.module.css';
 import SubLink from '../SubLink';
+import { SubNavItem } from '@/types/types';
 
 interface IProps {
   props: SubNavItem[];

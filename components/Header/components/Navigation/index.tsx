@@ -5,7 +5,6 @@ import { useResize } from '../../../../hooks/useResize';
 import styles from './index.module.css';
 import NavBar from '../NavBar';
 import navList from '../../navlist.json';
-import login from '../../../../public/icons/loginIcon.svg';
 
 interface IProps {
   state: boolean;

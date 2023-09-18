@@ -1,8 +1,8 @@
-import styles from './index.module.css';
-import Link from 'next/link';
 import Image from 'next/image';
+import styles from './index.module.css';
 import SubList from '../SubList';
 import NavLink from '../NavLink';
+import { NavItem } from '@/types/types';
 
 interface IChildren {
   children: NavItem[];
