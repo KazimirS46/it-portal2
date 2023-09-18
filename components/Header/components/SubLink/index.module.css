@@ -1,0 +1,36 @@
+.link {
+  display: block;
+  margin: 0;
+  padding: 7px 30px;
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition: all var(--transition);
+}
+
+.link span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  transition: all var(--transition);
+}
+
+.link:hover {
+  background-color: var(--menu-hover-bgr);
+}
+
+.link:hover span {
+  color: var(--blur-accent);
+}
+
+span.active {
+  font-weight: 700;
+  color: var(--blur-accent);
+}
+
+@media (max-width: 425px) {
+  .link {
+    padding: 11px 12px;
+    border-right: 1px solid var(--gray);
+  }
+}

@@ -1,0 +1,17 @@
+.navLink {
+  position: relative;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.navLink span {
+  white-space: nowrap;
+}
+
+@media (max-width: 425px) {
+  .navLink {
+    padding: 24px 0;
+    flex: 1;
+    text-align: end;
+  }
+}

@@ -1,16 +1,54 @@
-.header {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  background-color: var(--header-bgr);
-  font-family: var(--font-roboto);
-  font-size: 1em;
+.container {
   margin: 0 auto;
-  z-index: 200;
+  max-width: 1440px;
 }
 
-.navWrapper {
-  width: var(--wrap-max-width);
-  margin: 0 auto;
-  padding: 0 1px;
+.wrapper {
+  padding: 2.084% 2.5% 2.292% 2.778%;
+  display: flex;
+}
+
+.logoLink {
+  display: block;
+  width: 3.006%;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.mainLogo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayClose {
+  position: relative;
+  width: 0;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all var(--tarnsition);
+  z-index: -1;
+}
+
+.overlayOpen {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all var(--tarnsition);
+  z-index: -1;
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    position: relative;
+    padding: 6.824% 3.765% 8.706% 3.765%;
+    z-index: 0;
+  }
+
+  .logoLink {
+    display: block;
+    width: 6.11%;
+    margin-right: auto;
+  }
 }
