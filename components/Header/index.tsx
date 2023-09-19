@@ -16,7 +16,7 @@ export function Header() {
   return (
     <header>
       <div className={styles.container}>
-        <div className={styles.wrapper}>
+        <div className={styles.controlBox}>
           <Link href={'/'} className={styles.logoLink}>
             <Image
               alt=''
@@ -27,8 +27,9 @@ export function Header() {
             />
           </Link>
           <MenuButton state={isOpen} toggle={menuToggle} />
-          <Navigation state={isOpen} />
         </div>
+
+        <Navigation state={isOpen} />
       </div>
       <div className={isOpen ? styles.overlayOpen : styles.overlayClose}></div>
     </header>

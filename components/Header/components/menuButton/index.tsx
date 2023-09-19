@@ -7,8 +7,9 @@ interface IProps {
 }
 
 export default function MenuButton({ state, toggle }: IProps) {
+  const open = state && styles.buttonOpen;
   return (
-    <button className={styles.button} onClick={toggle}>
+    <button className={`${styles.button} ${open}`} onClick={toggle}>
       <span>Click</span>
     </button>
   );

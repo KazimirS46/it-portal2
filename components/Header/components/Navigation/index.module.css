@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   flex: 1;
+  margin-right: 36px;
   max-width: 73.754%;
   transition: transform 0.7s;
 }
@@ -39,7 +40,7 @@
 .containerOpen {
   position: absolute;
   z-index: -1;
-  top: 89.98%;
+  top: 100%;
   left: 0;
   display: flex;
   flex-direction: column;

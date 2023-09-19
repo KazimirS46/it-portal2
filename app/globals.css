@@ -39,7 +39,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: var(--main-text-color);
+  color: var(--text-color);
   background-color: var(--main-bgr-color);
   overflow-x: hidden;
 }

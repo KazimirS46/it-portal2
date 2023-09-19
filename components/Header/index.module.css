@@ -2,6 +2,75 @@
   position: relative;
   z-index: 2;
   margin: 0 auto;
+  padding: 1.603% 0 1.763% 0;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controlBox {
+  position: relative;
+  margin-left: 2.987%;
+  background-color: var(--header-bgr);
+}
+
+.logoLink {
+  display: block;
+  width: 85.42%;
+  margin-right: auto;
+}
+
+.mainLogo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayClose {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all var(--tarnsition);
+  z-index: 1;
+}
+
+.overlayOpen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all var(--tarnsition);
+  z-index: 1;
+}
+
+@media (max-width: 425px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .controlBox {
+    margin: 0;
+    padding: 0 4.27%;
+    padding-top: 7.2%;
+    padding-bottom: 9.87%;
+    display: flex;
+  }
+
+  .logoLink {
+    display: block;
+    width: 7%;
+    margin-right: auto;
+  }
+}
+
+/* --- готовый блок ---*/
+
+/* .container {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
   max-width: 1440px;
 }
 
@@ -52,4 +121,4 @@
     width: 6.11%;
     margin-right: auto;
   }
-}
+} */
