@@ -2,15 +2,17 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
+import { createContext, useState } from 'react';
 import styles from './index.module.css';
 import MenuButton from './components/menuButton';
 import Navigation from './components/Navigation';
 
+export const MenuToggleContext = createContext({});
+
 export function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const menuToggle = () => {
-    setIsOpen(!isOpen);
+  const [navIsOpen, setIsOpen] = useState(false);
+  const navMenuToggle = () => {
+    setIsOpen(!navIsOpen);
   };
 
   return (
@@ -27,12 +29,17 @@ export function Header() {
               className={styles.mainLogo}
             />
           </Link>
-          <MenuButton state={isOpen} toggle={menuToggle} />
+          <MenuButton navOpen={navIsOpen} toggle={navMenuToggle} />
         </div>
 
-        <Navigation props={{ isOpen: isOpen, menuToggle: menuToggle }} />
+        <MenuToggleContext.Provider value={{ navIsOpen, setIsOpen }}>
+          <Navigation
+            props={{ navIsOpen: navIsOpen, navMenuToggle: navMenuToggle }}
+          />
+        </MenuToggleContext.Provider>
       </div>
-      <div className={isOpen ? styles.overlayOpen : styles.overlayClose}></div>
+      <div
+        className={navIsOpen ? styles.overlayOpen : styles.overlayClose}></div>
     </header>
   );
 }

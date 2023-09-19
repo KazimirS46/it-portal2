@@ -1,7 +1,6 @@
-import styles from './index.module.css';
 import SubLink from '../SubLink';
 import { SubNavItem } from '@/types/types';
-import { useEffect } from 'react';
+import styles from './index.module.css';
 
 interface IProps {
   props: SubNavItem[];

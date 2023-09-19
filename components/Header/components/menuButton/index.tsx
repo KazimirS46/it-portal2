@@ -3,16 +3,16 @@ import { useEffect } from 'react';
 import styles from './index.module.css';
 
 interface IProps {
-  state: boolean;
+  navOpen: boolean;
   toggle: any;
 }
 
-export default function MenuButton({ state, toggle }: IProps) {
-  const open = state && styles.buttonOpen;
+export default function MenuButton({ navOpen, toggle }: IProps) {
+  const open = navOpen && styles.buttonOpen;
 
   useEffect(() => {
-    console.log('buttonOpen', open);
-  }, [open]);
+    console.log('navigation open', navOpen);
+  }, [navOpen]);
 
   return (
     <button className={`${styles.button} ${open}`} onClick={toggle}>

@@ -60,7 +60,7 @@ export type SubNavItem = {
   path: string;
 };
 
-export type NavItem = {
+export type NavItemType = {
   id: number;
   title: string;
   path: string | null;
