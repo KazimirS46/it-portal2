@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  color: var(--main-text-color);
+  color: var(--desc-text-color);
 }
 
 .navItem {
@@ -52,7 +52,6 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    color: var(--main-text-color);
   }
 
   .navItem {
@@ -69,10 +68,12 @@
   }
 
   .navButton {
-    padding: 24px 0;
     justify-content: flex-end;
     flex: 1;
     cursor: pointer;
-    /* border-bottom: 1px solid var(--gray); */
+  }
+
+  .navButton span {
+    padding: 24px 0;
   }
 }

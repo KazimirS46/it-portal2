@@ -12,11 +12,11 @@
 @media (max-width: 425px) {
   .subList {
     position: static;
-    width: calc(100% - 36px);
+    width: 100%;
     margin-top: -8px;
     padding: 16px 18px;
     padding-top: 0;
     text-align: end;
-    background-color: var(--hr-bgr-color);
+    background-color: var(--header-bgr);
   }
 }

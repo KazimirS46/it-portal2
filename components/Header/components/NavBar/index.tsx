@@ -1,24 +1,42 @@
+'use client';
+
 import Image from 'next/image';
 import styles from './index.module.css';
 import SubList from '../SubList';
 import NavLink from '../NavLink';
 import { NavItem } from '@/types/types';
+import { useState } from 'react';
+import { useResize } from '@/hooks/useResize';
 
-interface IChildren {
-  children: NavItem[];
+interface IProps {
+  props: {
+    toggle: () => void;
+    navList: NavItem[];
+  };
 }
 
-export default function NavBar({ children }: IChildren) {
+export default function NavBar({ props }: IProps) {
+  const width = useResize();
+  const [isOpenNav, setIsOpenNav] = useState(false);
+
+  const navClickHandler = () => {
+    width > 425 ? null : setIsOpenNav(!isOpenNav);
+  };
+
   return (
     <div className={styles.container}>
       <ul className={styles.navList}>
-        {children.map((item) => (
+        {props.navList.map((item) => (
           <li key={item.id} className={styles.navItem}>
             {item.path !== null ? (
-              <NavLink path={item.path} title={item.title} />
+              <NavLink
+                path={item.path}
+                title={item.title}
+                toggle={props.toggle}
+              />
             ) : (
               <>
-                <div className={styles.navButton}>
+                <div className={styles.navButton} onClick={navClickHandler}>
                   <span>{item.title}</span>
                   <Image
                     alt=''
@@ -28,9 +46,11 @@ export default function NavBar({ children }: IChildren) {
                     className={styles.arrow}
                   />
                 </div>
-                <div className={styles.subList}>
-                  {item.submenu !== null && <SubList props={item.submenu} />}
-                </div>
+                {isOpenNav && (
+                  <div className={styles.subList} onClick={props.toggle}>
+                    {item.submenu !== null && <SubList props={item.submenu} />}
+                  </div>
+                )}
               </>
             )}
           </li>

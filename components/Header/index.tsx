@@ -21,6 +21,7 @@ export function Header() {
             <Image
               alt=''
               src={'/logo/mainLogo.png'}
+              priority={false}
               width={41}
               height={45}
               className={styles.mainLogo}
@@ -29,7 +30,7 @@ export function Header() {
           <MenuButton state={isOpen} toggle={menuToggle} />
         </div>
 
-        <Navigation state={isOpen} />
+        <Navigation props={{ isOpen: isOpen, menuToggle: menuToggle }} />
       </div>
       <div className={isOpen ? styles.overlayOpen : styles.overlayClose}></div>
     </header>

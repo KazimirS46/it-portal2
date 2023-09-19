@@ -7,10 +7,14 @@ import NavBar from '../NavBar';
 import navList from '../../navlist.json';
 
 interface IProps {
-  state: boolean;
+  props: {
+    isOpen: boolean;
+    menuToggle: () => void;
+  };
 }
 
-export default function Navigation({ state }: IProps) {
+export default function Navigation({ props }: IProps) {
+  const toggle = props.menuToggle;
   const width = useResize();
 
   const mobileWidth = width < 426;
@@ -20,12 +24,12 @@ export default function Navigation({ state }: IProps) {
       className={
         !mobileWidth
           ? styles.container
-          : state
+          : props.isOpen
           ? styles.containerOpen
           : styles.containerClose
       }>
       <div className={styles.separatop}></div>
-      <NavBar>{navList}</NavBar>
+      <NavBar props={{ toggle, navList }} />
       <button type='button' className={styles.loginBtn}>
         <span>Log In</span>
         <Image
