@@ -17,12 +17,10 @@ export default function Navigation({ props }: IProps) {
   const toggle = props.menuToggle;
   const width = useResize();
 
-  const mobileWidth = width < 426;
-
   return (
     <div
       className={
-        !mobileWidth
+        !width
           ? styles.container
           : props.isOpen
           ? styles.containerOpen

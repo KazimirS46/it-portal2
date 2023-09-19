@@ -40,13 +40,14 @@
 .containerOpen {
   position: absolute;
   z-index: -1;
-  top: 100%;
+  top: 0;
   left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex: 1;
   padding: 0 3.765%;
+  padding-top: 90px;
   width: 100%;
   max-width: 100%;
   background-color: var(--header-bgr);
@@ -77,8 +78,13 @@
     display: block;
   }
 
+  .containerClose,
+  .containerOpen {
+    padding-top: 102px;
+  }
+
   .containerClose {
-    transform: translateY(-458px);
+    transform: translateY(-100%);
   }
 
   .containerOpen {
@@ -88,11 +94,11 @@
 
 @media (max-width: 375px) {
   .containerClose {
-    transform: translateY(-450px);
+    transform: translateY(-100%);
   }
 }
 @media (max-width: 325px) {
   .containerClose {
-    transform: translateY(-439px);
+    transform: translateY(-100%);
   }
 }
