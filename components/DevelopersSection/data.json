@@ -3,7 +3,7 @@
   "company": [
     {
       "id": 0,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Name - lightning",
       "description": "Lorem ipsum dolor sit amet.",
       "tags": [
@@ -31,7 +31,7 @@
     },
     {
       "id": 1,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Company Name",
       "description": "Lorem ipsum dolor sit amet. Lorem ipsum Lorem ipsum dolor sit amet dolor dolor sit amet",
       "tags": [
@@ -55,7 +55,7 @@
     },
     {
       "id": 2,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Company Name",
       "description": "Lorem ipsum dolor sit amet.",
       "tags": [
@@ -75,7 +75,7 @@
     },
     {
       "id": 3,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Company Name",
       "description": "Lorem ipsum dolor sit amet.",
       "tags": [
@@ -107,7 +107,7 @@
     },
     {
       "id": 4,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Company Name",
       "description": "Lorem ipsum dolor sit amet.",
       "tags": [
@@ -135,7 +135,7 @@
     },
     {
       "id": 5,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Company Name",
       "description": "Lorem ipsum dolor sit amet.",
       "tags": [
@@ -159,7 +159,7 @@
     },
     {
       "id": 6,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Company Name",
       "description": "Lorem ipsum dolor sit amet.",
       "tags": [
@@ -179,7 +179,7 @@
     },
     {
       "id": 7,
-      "logoUrl": "/icon/demoLogoCompany.svg",
+      "logoUrl": "/icons/demoLogoCompany.svg",
       "title": "Company Name",
       "description": "Lorem ipsum dolor sit amet.",
       "tags": [

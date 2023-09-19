@@ -13,7 +13,7 @@ export function Footer() {
           </div>
           <div className={styles.logo}>
             <Image
-              src={'/icon/logoMain.svg'}
+              src={'/icons/logoMain.svg'}
               width={32}
               height={32}
               alt='logo'></Image>
