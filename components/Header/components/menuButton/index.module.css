@@ -47,44 +47,16 @@
   bottom: 5px;
 }
 
-.button:hover span {
-  display: none;
-  transform: rotate(45deg);
-}
-
-.button:hover::after {
-  top: 11px;
-  left: 10px;
-  width: 16px;
-  transform: rotate(-45deg);
-}
-.button:hover::before {
-  width: 16px;
-  right: 10px;
-  bottom: 11px;
-  transform: rotate(45deg);
-}
-
 .buttonOpen span {
   display: none;
 }
 
 .button.buttonOpen::after {
   top: 11px;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 
 .button.buttonOpen::before {
-  bottom: 11px;
-  transform: rotate(45deg);
-}
-
-.button.buttonOpen:hover:after {
-  top: 11px;
-  transform: rotate(45deg);
-}
-
-.button.buttonOpen:hover::before {
   bottom: 11px;
   transform: rotate(-45deg);
 }

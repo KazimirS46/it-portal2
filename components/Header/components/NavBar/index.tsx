@@ -5,7 +5,7 @@ import styles from './index.module.css';
 import SubList from '../SubList';
 import NavLink from '../NavLink';
 import { NavItem } from '@/types/types';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useResize } from '@/hooks/useResize';
 
 interface IProps {
@@ -20,7 +20,12 @@ export default function NavBar({ props }: IProps) {
   const [isOpenNav, setIsOpenNav] = useState(false);
 
   const navClickHandler = () => {
-    width > 425 ? null : setIsOpenNav(!isOpenNav);
+    !width ? null : setIsOpenNav(!isOpenNav);
+  };
+
+  const subListClickHandler = () => {
+    props.toggle();
+    setIsOpenNav(!isOpenNav);
   };
 
   return (
@@ -47,7 +52,7 @@ export default function NavBar({ props }: IProps) {
                   />
                 </div>
                 {isOpenNav && (
-                  <div className={styles.subList} onClick={props.toggle}>
+                  <div className={styles.subList} onClick={subListClickHandler}>
                     {item.submenu !== null && <SubList props={item.submenu} />}
                   </div>
                 )}

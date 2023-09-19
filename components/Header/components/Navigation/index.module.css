@@ -57,13 +57,18 @@
 @media (max-width: 425px) {
   .container {
     position: absolute;
-    flex-direction: column;
-    top: 400%;
+    z-index: -1;
+    top: 0;
     left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
     padding: 0 3.765%;
-    width: 92.471%;
+    padding-top: 90px;
+    width: 100%;
     max-width: 100%;
-    background-color: var(--hr-bgr-color);
+    background-color: var(--header-bgr);
   }
 
   .loginBtn {
@@ -81,6 +86,10 @@
   .containerClose,
   .containerOpen {
     padding-top: 102px;
+  }
+
+  .container {
+    transform: translateY(-100%);
   }
 
   .containerClose {
