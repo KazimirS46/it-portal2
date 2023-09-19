@@ -18,8 +18,9 @@
   font-size: 0;
   background-color: black;
   transform-origin: center center;
-  transition: width 0.5s ease-in-out, background 0.5s ease-in-out,
-    transform 0.5s ease-in-out, top 0.5s ease-in-out;
+  transition: width var(--transition) ease-in-out,
+    background var(--transition) ease-in-out,
+    transform var(--transition) ease-in-out, top var(--transition) ease-in-out;
 }
 
 .button::after,
@@ -31,9 +32,11 @@
   height: 2px;
   background-color: black;
   transform-origin: center center;
-  transition: width 0.5s ease-in-out, background 0.5s ease-in-out,
-    transform 0.5s ease-in-out, top 0.5s ease-in-out, bottom 0.5s ease-in-out,
-    right 0.5s ease-in-out, left 0.5s ease-in-out;
+  transition: width var(--transition) ease-in-out,
+    background var(--transition) ease-in-out,
+    transform var(--transition) ease-in-out, top var(--transition) ease-in-out,
+    bottom var(--transition) ease-in-out, right var(--transition) ease-in-out,
+    left var(--transition) ease-in-out;
 }
 
 .button::after {

@@ -4,7 +4,7 @@
   flex: 1;
   margin-right: 36px;
   max-width: 73.754%;
-  transition: transform 0.7s;
+  transition: transform var(--transition);
 }
 
 .loginBtn {
@@ -50,7 +50,7 @@
   width: 100%;
   max-width: 100%;
   background-color: var(--header-bgr);
-  transition: transform 1s;
+  transition: transform var(--transition);
 }
 
 @media (max-width: 425px) {
