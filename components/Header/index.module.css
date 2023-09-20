@@ -26,24 +26,6 @@
   height: auto;
 }
 
-.overlayClose {
-  position: absolute;
-  width: 0;
-  height: 0;
-  background-color: rgba(0, 0, 0, 0);
-  transition: all var(--tarnsition);
-  z-index: 1;
-}
-
-.overlayOpen {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: all var(--tarnsition);
-  z-index: 1;
-}
-
 @media (max-width: 425px) {
   .container {
     flex-direction: column;
@@ -64,61 +46,3 @@
     margin-right: auto;
   }
 }
-
-/* --- готовый блок ---*/
-
-/* .container {
-  position: relative;
-  z-index: 2;
-  margin: 0 auto;
-  max-width: 1440px;
-}
-
-.wrapper {
-  position: relative;
-  z-index: 3;
-  display: flex;
-  padding: 2.084% 2.5% 2.292% 2.778%;
-}
-
-.logoLink {
-  display: block;
-  width: 3.006%;
-  margin-right: auto;
-}
-
-.mainLogo {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlayClose {
-  position: absolute;
-  width: 0;
-  height: 0;
-  background-color: rgba(0, 0, 0, 0);
-  transition: all var(--tarnsition);
-  z-index: 1;
-}
-
-.overlayOpen {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: all var(--tarnsition);
-  z-index: 1;
-}
-
-@media (max-width: 425px) {
-  .wrapper {
-    padding: 6.824% 3.765% 8.706% 3.765%;
-  }
-
-  .logoLink {
-    display: block;
-    width: 6.11%;
-    margin-right: auto;
-  }
-} */

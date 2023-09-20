@@ -1,16 +1,17 @@
 'use client';
 
+import { createContext, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { createContext, useState } from 'react';
 import styles from './index.module.css';
 import MenuButton from './components/menuButton';
 import Navigation from './components/Navigation';
+import NavOverlay from './components/NavOverlay';
 
 export const MenuToggleContext = createContext({});
 
 export function Header() {
-  const [navIsOpen, setIsOpen] = useState(false);
+  const [navIsOpen, setIsOpen] = useState<boolean>(false);
   const navMenuToggle = () => {
     setIsOpen(!navIsOpen);
   };
@@ -33,13 +34,10 @@ export function Header() {
         </div>
 
         <MenuToggleContext.Provider value={{ navIsOpen, setIsOpen }}>
-          <Navigation
-            props={{ navIsOpen: navIsOpen, navMenuToggle: navMenuToggle }}
-          />
+          <Navigation />
         </MenuToggleContext.Provider>
       </div>
-      <div
-        className={navIsOpen ? styles.overlayOpen : styles.overlayClose}></div>
+      {navIsOpen && <NavOverlay />}
     </header>
   );
 }
