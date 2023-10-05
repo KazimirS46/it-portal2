@@ -5,29 +5,24 @@ import { useResize } from '../../../../hooks/useResize';
 import styles from './index.module.css';
 import NavBar from '../NavBar';
 import navList from '../../navlist.json';
+import { MenuToggleContext } from '../..';
+import { useContext } from 'react';
 
-interface IProps {
-  props: {
-    navIsOpen: boolean;
-    navMenuToggle: () => void;
-  };
-}
-
-export default function Navigation({ props }: IProps) {
-  const navMenuToggle = props.navMenuToggle;
+export default function Navigation() {
   const isMobile = useResize();
+  const { navIsOpen } = useContext<any>(MenuToggleContext);
 
   return (
     <div
       className={
         !isMobile
           ? styles.container
-          : props.navIsOpen
+          : navIsOpen
           ? styles.containerOpen
           : styles.containerClose
       }>
       <div className={styles.separatop}></div>
-      <NavBar props={{ navMenuToggle, navList }} />
+      <NavBar navList={navList} />
       <button type='button' className={styles.loginBtn}>
         <span>Log In</span>
         <Image

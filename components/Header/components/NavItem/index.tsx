@@ -1,51 +1,42 @@
 import Image from 'next/image';
+import { useContext, useState } from 'react';
 import NavLink from '../NavLink';
-import styles from './inde.module.css';
 import SubList from '../SubList';
-import { NavItemType } from '@/types/types';
 import { useResize } from '@/hooks/useResize';
-import { useContext, useEffect, useState } from 'react';
+import { NavItemType } from '@/types/types';
 import { MenuToggleContext } from '../..';
+import styles from './inde.module.css';
 
 interface IProps {
-  props: {
-    data: NavItemType;
-    navMenuToggle: () => void;
-  };
+  item: NavItemType;
 }
 
-export default function NavItem({ props }: IProps) {
+export default function NavItem({ item }: IProps) {
   const isMobile = useResize();
   const [isOpenNavItem, setIsOpenNavItem] = useState(false);
-  const { setIsOpen } = useContext<any>(MenuToggleContext);
-  const { data, navMenuToggle } = props;
+  const { navIsOpen, setIsOpen } = useContext<any>(MenuToggleContext);
 
   const navItemClickHandler = () => {
     !isMobile ? null : setIsOpenNavItem(!isOpenNavItem);
   };
 
   const subListClickHandler = () => {
-    !isMobile ? null : navMenuToggle();
+    !isMobile ? null : setIsOpen(!navIsOpen);
     !isMobile ? null : setIsOpenNavItem(!isOpenNavItem);
-    console.log('sub Item open', isOpenNavItem);
   };
 
-  useEffect(() => {
-    console.log('is mobile ', isMobile);
-  }, [isMobile]);
-
   return (
-    <li key={data.id} className={styles.navItem}>
-      {data.path !== null ? (
+    <li key={item.id} className={styles.navItem}>
+      {item.path !== null ? (
         <NavLink
-          path={data.path}
-          title={data.title}
+          path={item.path}
+          title={item.title}
           toggle={() => setIsOpen(false)}
         />
       ) : (
         <>
           <div className={styles.navButton} onClick={navItemClickHandler}>
-            <span>{data.title}</span>
+            <span>{item.title}</span>
             <Image
               alt=''
               src={'/icons/arrowIcon.svg'}
@@ -63,7 +54,7 @@ export default function NavItem({ props }: IProps) {
                 : styles.subList
             }
             onClick={subListClickHandler}>
-            {data.submenu !== null && <SubList props={data.submenu} />}
+            {item.submenu !== null && <SubList props={item.submenu} />}
           </div>
         </>
       )}
