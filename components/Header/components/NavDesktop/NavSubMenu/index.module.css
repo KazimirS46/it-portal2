@@ -1,0 +1,45 @@
+.navLink {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 1.437rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.menuArrow {
+  margin-left: 2px;
+  transition: all 0.5s;
+}
+
+.subList {
+  position: absolute;
+  top: 100%;
+  left: 0.625rem;
+  padding: 0.937rem 0 1.187rem 0;
+  background: #fff;
+  box-shadow: 0px 6px 24px 0px rgba(97, 115, 147, 0.12);
+}
+
+.subItem {
+  padding: 0.437rem 1.875rem;
+}
+
+.activeLink {
+  color: var(--desc-text-color3);
+  font-weight: 700;
+}
+
+.subItem,
+.subItem .subLink {
+  transition: all var(--transition);
+}
+
+.subItem:hover {
+  background-color: var(--submenu-bgr);
+}
+
+.subItem:hover a {
+  color: var(--desc-text-color3);
+}

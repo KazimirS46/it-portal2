@@ -23,7 +23,7 @@ export function HeroTop() {
         </p>
       </div>
       <div className={styles.image}>
-        <Image src={heroImage} alt='' />
+        <Image src={heroImage} alt='' width={559} height={616} priority />
       </div>
     </>
   );

@@ -1,0 +1,29 @@
+.navDesktopWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2.5% 0 2.987%;
+}
+
+.logoLink {
+  margin-right: auto;
+}
+
+.navList {
+  display: flex;
+}
+
+.logInBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  margin-left: 12.375rem;
+  font-size: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
