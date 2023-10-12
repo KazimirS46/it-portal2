@@ -17,7 +17,7 @@ export const Navigation = ({ props }: IProps) => {
   return (
     <>
       {(isDesktop || isTablet) && <NavDesktop props={props} />}
-      {isMobile && <NavMobile />}
+      {isMobile && <NavMobile props={props} />}
     </>
   );
 };

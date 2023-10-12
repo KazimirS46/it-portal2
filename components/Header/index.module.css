@@ -5,3 +5,9 @@
   padding: 1.603% 0 1.763% 0;
   max-width: 1440px;
 }
+
+@media (max-width: 425px) {
+  .container {
+    padding: 0;
+  }
+}
