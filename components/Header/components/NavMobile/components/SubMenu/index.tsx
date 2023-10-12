@@ -1,23 +1,37 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { NavItemType } from '@/types/types';
 import styles from './index.module.css';
 
 interface IProps {
-  props: NavItemType;
+  info: NavItemType;
+  idx: number;
+  openSubMenu: boolean;
   close: () => void;
+  handle: (position: number) => void;
+  overlayClose: () => void;
 }
 
-export const SubMenu = ({ props, close }: IProps) => {
+export const SubMenu = ({
+  info,
+  openSubMenu,
+  idx,
+  handle,
+  overlayClose,
+  close,
+}: IProps) => {
   const pathname = usePathname();
-  const [menuIsOpen, setMenuIsOpen] = useState(false);
+
+  const onClickBtn = () => {
+    close();
+    overlayClose();
+  };
 
   return (
-    <div className={styles.navLink} onClick={() => setMenuIsOpen(!menuIsOpen)}>
+    <div className={styles.navLink} onClick={() => handle(idx)}>
       <div className={styles.title}>
-        <span>{props.title}</span>
+        <span>{info.title}</span>
         <Image
           alt='Open Menu'
           src={'/icons/arrowIcon.svg'}
@@ -26,16 +40,16 @@ export const SubMenu = ({ props, close }: IProps) => {
           className={styles.menuArrow}
         />
       </div>
-      {menuIsOpen && (
+      {openSubMenu && (
         <ul className={styles.subList}>
-          {props.submenu!.map((subItem) => (
+          {info.submenu!.map((subItem) => (
             <li key={subItem.id} className={styles.subItem}>
               <Link
                 href={subItem.path}
                 className={`${styles.sublink} ${
                   pathname !== subItem.path ? null : styles.active
                 }`}
-                onClick={close}>
+                onClick={onClickBtn}>
                 {subItem.title}
               </Link>
             </li>

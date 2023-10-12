@@ -41,7 +41,7 @@ export const NavMobile = ({ props, toggle }: IProps) => {
         />
       </div>
       <div className={styles.dropdownMenu}>
-        <MobileNavBar props={{ navItem, navIsOpen, navMenuToggle }} />
+        <MobileNavBar props={{ navItem, navIsOpen, navMenuToggle, toggle }} />
       </div>
     </>
   );
