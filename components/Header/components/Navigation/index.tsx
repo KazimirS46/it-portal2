@@ -1,11 +1,11 @@
 'use client';
 
+import { useState } from 'react';
 import { NavDesktop } from '../NavDesktop';
 import { NavMobile } from '../NavMobile';
 import { useMatchMedia } from '@/hooks/use-match-media';
 import { NavItemType } from '@/types/types';
 import styles from './index.module.css';
-import { useState } from 'react';
 
 interface IProps {
   props: NavItemType[];
@@ -15,6 +15,7 @@ type DeviceList = { isMobile: boolean; isTablet: boolean; isDesktop: boolean };
 
 export const Navigation = ({ props }: IProps) => {
   const { isMobile, isTablet, isDesktop } = useMatchMedia() as DeviceList;
+
   const [open, setOpen] = useState(false);
 
   const overlayToggle = () => {
