@@ -12,7 +12,7 @@ interface IProps {
 
 export const SubMenu = ({ props, close }: IProps) => {
   const pathname = usePathname();
-  const [menuIsOpen, setMenuIsOpen] = useState(true);
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
     <div className={styles.navLink} onClick={() => setMenuIsOpen(!menuIsOpen)}>

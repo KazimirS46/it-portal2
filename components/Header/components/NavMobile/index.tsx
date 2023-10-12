@@ -10,10 +10,11 @@ import { MobileNavBar } from './components/MobileNavBar';
 
 interface IProps {
   props: NavItemType[];
+  toggle: () => void;
 }
 
-export const NavMobile = ({ props }: IProps) => {
-  const [navIsOpen, setIsOpen] = useState<boolean>(true);
+export const NavMobile = ({ props, toggle }: IProps) => {
+  const [navIsOpen, setIsOpen] = useState<boolean>(false);
   const navMenuToggle = () => {
     setIsOpen(!navIsOpen);
   };
@@ -33,7 +34,11 @@ export const NavMobile = ({ props }: IProps) => {
             className={styles.mainLogo}
           />
         </Link>
-        <DropdownMenuButton isOpen={navIsOpen} toggle={navMenuToggle} />
+        <DropdownMenuButton
+          isOpen={navIsOpen}
+          toggle={navMenuToggle}
+          overlayToggle={toggle}
+        />
       </div>
       <div className={styles.dropdownMenu}>
         <MobileNavBar props={{ navItem, navIsOpen, navMenuToggle }} />
