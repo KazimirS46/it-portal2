@@ -11,6 +11,7 @@ interface IProps {
 
 export default function Slider({ props }: IProps) {
   const company = props.company;
+
   return (
     <>
       <Swiper slidesPerView={4} spaceBetween={8}>

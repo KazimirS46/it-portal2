@@ -10,8 +10,10 @@ export default function ServicesSection() {
         <div className={styles.container}>
           <div className={styles.head}>
             <h2>Услуги</h2>
+
             <Link href='/services'>Показать все услуги</Link>
           </div>
+
           <ServicesSlider services={servicesList} />
         </div>
       </div>

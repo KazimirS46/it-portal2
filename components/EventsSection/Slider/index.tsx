@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { EventData } from '@/types/types';
 import Slide from '../Slide';
-// import Slide from '../Slide';
 
 interface IProps {
   events: EventData[];

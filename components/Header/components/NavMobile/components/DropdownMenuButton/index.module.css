@@ -1,6 +1,5 @@
 .button {
   position: relative;
-  display: none;
   width: 24px;
   height: 24px;
   margin: 0;
@@ -59,10 +58,4 @@
 .button.buttonOpen::before {
   bottom: 11px;
   transform: rotate(-45deg);
-}
-
-@media (max-width: 425px) {
-  .button {
-    display: block;
-  }
 }

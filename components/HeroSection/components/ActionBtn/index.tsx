@@ -23,6 +23,7 @@ export function ActionBtn() {
         />
       </svg>
     ),
+
     services: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -76,6 +77,7 @@ export function ActionBtn() {
         />
       </svg>
     ),
+
     contacts: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -109,6 +111,7 @@ export function ActionBtn() {
         />
       </svg>
     ),
+
     about: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -126,6 +129,7 @@ export function ActionBtn() {
         <path d='M10.4736 7.51256V5.73633' stroke='#0097FF' strokeWidth='1.5' />
       </svg>
     ),
+
     events: (
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -148,48 +152,68 @@ export function ActionBtn() {
       </svg>
     ),
   };
+
   return (
     <div className={styles.actionContainer}>
       <ul className={styles.actionBtnList}>
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
+
           <Link href={'/solutions'} className={styles.actionBtn}>
             {svg.solution}
+
             <span>
               Подобрать<br></br> готовое решение
             </span>
+
             <div className={styles.divider}></div>
           </Link>
         </li>
+
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
+
           <Link href={'/services'} className={styles.actionBtn}>
             {svg.services}
+
             <span>Заказать разработку</span>
+
             <div className={styles.divider}></div>
           </Link>
         </li>
+
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
+
           <Link href={'/contacts'} className={styles.actionBtn}>
             {svg.contacts}
+
             <span>Инвестировать</span>
+
             <div className={styles.divider}></div>
           </Link>
         </li>
+
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
+
           <Link href={'/about'} className={styles.actionBtn}>
             {svg.about}
+
             <span>Получить информацию о Регионе</span>
+
             <div className={styles.divider}></div>
           </Link>
         </li>
+
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
+
           <Link href={'/events'} className={styles.actionBtn}>
             {svg.events}
+
             <span>Участвовать в IT-мероприятиях</span>
+
             <div className={styles.divider}></div>
           </Link>
         </li>

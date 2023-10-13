@@ -9,8 +9,10 @@ export default function ProjectsSection() {
         <div className={styles.container}>
           <div className={styles.head}>
             <h2>Открытые проекты и инициативы</h2>
+
             <p>Проекты, в реализации которых можно принять участие</p>
           </div>
+
           <Slider projects={projects} />
         </div>
       </div>

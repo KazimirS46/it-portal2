@@ -9,6 +9,7 @@ export default function Hero() {
         <div className={styles.container}>
           <div className={styles.heroContent}>
             <HeroTop />
+
             <ActionBtn />
           </div>
         </div>
