@@ -37,9 +37,12 @@ export default function News() {
                       height={264}
                       alt={news.mainImage.alt}
                     />
+
                     <article className={styles.article}>
                       <h2>{news.title}</h2>
+
                       <p>{news.description}</p>
+
                       <Image src={newsButton} width={440} alt='button' />
                     </article>
                   </div>

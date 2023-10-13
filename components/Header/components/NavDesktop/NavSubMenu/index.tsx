@@ -11,6 +11,7 @@ interface IProps {
 
 export const NavSubMenu = ({ props }: IProps) => {
   const pathname = usePathname();
+
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
@@ -19,6 +20,7 @@ export const NavSubMenu = ({ props }: IProps) => {
       onClick={() => setMenuIsOpen(!menuIsOpen)}
       onMouseLeave={() => setMenuIsOpen(false)}>
       <span>{props.title}</span>
+
       <Image
         alt='Open Menu'
         src={'/icons/arrowIcon.svg'}
@@ -26,6 +28,7 @@ export const NavSubMenu = ({ props }: IProps) => {
         height={20}
         className={styles.menuArrow}
       />
+
       {menuIsOpen && (
         <ul
           className={styles.subList}

@@ -32,6 +32,7 @@ export const SubMenu = ({
     <div className={styles.navLink} onClick={() => handle(idx)}>
       <div className={styles.title}>
         <span>{info.title}</span>
+
         <Image
           alt='Open Menu'
           src={'/icons/arrowIcon.svg'}
@@ -40,6 +41,7 @@ export const SubMenu = ({
           className={styles.menuArrow}
         />
       </div>
+
       {openSubMenu && (
         <ul className={styles.subList}>
           {info.submenu!.map((subItem) => (

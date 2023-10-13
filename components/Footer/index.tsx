@@ -11,6 +11,7 @@ export function Footer() {
             <p className={styles.title}>IT-Портал Региона</p>
             <p className={styles.date}>2023</p>
           </div>
+
           <div className={styles.logo}>
             <Image
               src={'/icons/logoMain.svg'}

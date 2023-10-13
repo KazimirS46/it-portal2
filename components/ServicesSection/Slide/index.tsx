@@ -17,14 +17,19 @@ export default function Slide({ data }: IProps) {
       <div className={styles.bottom}>
         <div className={styles.companies}>
           <span className={styles.number}>10</span>
+
           <span className={styles.title}>Companies</span>
         </div>
+
         <div className={styles.fte}>
           <span className={styles.quantity}>40+</span>
+
           <span className={styles.title}>FTE</span>
         </div>
+
         <div className={styles.rate}>
           <span className={styles.price}>35$</span>
+
           <span className={styles.title}>Average rate</span>
         </div>
       </div>

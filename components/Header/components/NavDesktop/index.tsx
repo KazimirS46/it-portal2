@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
-
-import { NavItemType } from '@/types/types';
-import styles from './index.module.css';
 import { NavLink } from './NavLink';
 import { NavSubMenu } from './NavSubMenu';
+import { NavItemType } from '@/types/types';
+import styles from './index.module.css';
 
 interface IProps {
   props: NavItemType[];
@@ -12,6 +11,7 @@ interface IProps {
 
 export const NavDesktop = ({ props }: IProps) => {
   const navItem = props;
+
   return (
     <div className={styles.navDesktopWrapper}>
       <Link href={'/'} className={styles.logoLink}>
@@ -23,6 +23,7 @@ export const NavDesktop = ({ props }: IProps) => {
           className={styles.mainLogo}
         />
       </Link>
+
       <nav>
         <ul className={styles.navList}>
           {navItem.map((item) => (
@@ -36,8 +37,10 @@ export const NavDesktop = ({ props }: IProps) => {
           ))}
         </ul>
       </nav>
+
       <button type='button' className={styles.logInBtn}>
         <span>logIn</span>
+
         <Image
           src={'/icons/loginIcon.svg'}
           alt='LogIn Icon'

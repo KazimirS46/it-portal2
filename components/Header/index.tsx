@@ -1,5 +1,5 @@
-import styles from './index.module.css';
 import { Navigation } from './components/Navigation';
+import styles from './index.module.css';
 import navData from '@/components/Header/navlist.json';
 
 export function Header() {

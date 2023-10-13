@@ -1,9 +1,9 @@
+import { useState } from 'react';
 import { SubLink } from '../SubLink';
 import { SubMenu } from '../SubMenu';
+import { LogIn } from '../LogIn';
 import { NavItemType } from '@/types/types';
 import styles from './index.module.css';
-import { LogIn } from '../LogIn';
-import { useState } from 'react';
 
 interface IProps {
   props: {
@@ -33,6 +33,7 @@ export const MobileNavBar = ({ props }: IProps) => {
     <>
       <nav className={`${styles.menu} ${menuOpen}`}>
         <LogIn />
+
         <ul className={styles.navList}>
           {props.navItem.map((item, index) => (
             <li key={item.id} className={styles.navItem}>

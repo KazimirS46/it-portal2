@@ -20,7 +20,9 @@ export const Navigation = ({ props }: IProps) => {
   return (
     <>
       <NavMobile props={props} toggle={overlayToggle} />
+
       <NavDesktop props={props} />
+
       {open && <div className={styles.overlay}></div>}
     </>
   );
