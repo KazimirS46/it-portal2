@@ -1,5 +1,4 @@
 .navDesktopWrapper {
-  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,4 +25,10 @@
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+@media (max-width: 425px) {
+  .navDesktopWrapper {
+    display: none;
+  }
 }

@@ -17,3 +17,9 @@
   position: absolute;
   width: 100%;
 }
+
+@media (min-width: 426px) {
+  .mobile {
+    display: none;
+  }
+}
