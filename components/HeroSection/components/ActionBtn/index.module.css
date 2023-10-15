@@ -91,6 +91,7 @@
   .actionContainer {
     order: 2;
     top: 0;
+    margin-bottom: -465px;
   }
 
   .actionBtnList {
