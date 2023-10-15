@@ -12,7 +12,9 @@ export default function EventsSection() {
             <h2 className={styles.sectionTitle}>Мероприятия</h2>
             <Link href='/events'>Показать все мероприятия</Link>
           </div>
-          <Slider events={events} />
+          <div className={styles.sliderContainer}>
+            <Slider events={events} />
+          </div>
         </div>
       </div>
     </section>

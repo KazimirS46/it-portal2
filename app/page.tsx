@@ -14,7 +14,7 @@ export default function Home() {
       <SolutionsMain />
       <DeveloperSection />
       <ServicesSection />
-      {/* <EventsSection /> */}
+      <EventsSection />
       {/* <ProjectsSection /> */}
     </>
   );
