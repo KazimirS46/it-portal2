@@ -13,7 +13,7 @@ export default function Home() {
       <News />
       <SolutionsMain />
       <DeveloperSection />
-      {/* <ServicesSection /> */}
+      <ServicesSection />
       {/* <EventsSection /> */}
       {/* <ProjectsSection /> */}
     </>
