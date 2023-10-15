@@ -8,7 +8,9 @@ export default function DeveloperSection() {
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>{data.title}</h2>
-          <Slider props={data} />
+          <div className={styles.sliderContainer}>
+            <Slider props={data} />
+          </div>
         </div>
       </div>
     </section>

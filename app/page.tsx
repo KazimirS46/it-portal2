@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <News />
       <SolutionsMain />
-      {/* <DeveloperSection /> */}
+      <DeveloperSection />
       {/* <ServicesSection /> */}
       {/* <EventsSection /> */}
       {/* <ProjectsSection /> */}
