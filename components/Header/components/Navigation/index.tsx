@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react';
 import { NavDesktop } from '../NavDesktop';
 import { NavMobile } from '../NavMobile';
 import { NavItemType } from '@/types/types';
-import styles from './index.module.css';
 import blockBody from '@/utils/blockBody';
+import styles from './index.module.css';
 
 interface IProps {
   props: NavItemType[];
@@ -20,15 +20,6 @@ export const Navigation = ({ props }: IProps) => {
 
   useEffect(() => {
     blockBody();
-    // document.body.style.position = 'fixed';
-    // document.body.style.top = `-${window.scrollY}px`;
-
-    // return () => {
-    //   const scrollY = document.body.style.top;
-    //   document.body.style.position = '';
-    //   document.body.style.top = '';
-    //   window.scrollTo(0, parseInt(scrollY || '0') * -1);
-    // };
   }, []);
 
   return (
