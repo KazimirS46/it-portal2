@@ -15,7 +15,7 @@ export default function Home() {
       <DeveloperSection />
       <ServicesSection />
       <EventsSection />
-      {/* <ProjectsSection /> */}
+      <ProjectsSection />
     </>
   );
 }
