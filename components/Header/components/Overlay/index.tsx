@@ -1,7 +1,12 @@
 import { useEffect } from 'react';
 import styles from './index.module.css';
 
-export const Overlay = () => {
+interface IProps {
+  overOpen: () => void;
+  overClose: () => void;
+}
+
+export const Overlay = ({ overOpen, overClose }: IProps) => {
   useEffect(() => {
     document.body.style.position = 'fixed';
     document.body.style.top = `-${window.scrollY}px`;

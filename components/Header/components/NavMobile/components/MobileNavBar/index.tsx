@@ -10,7 +10,6 @@ interface IProps {
     navItem: NavItemType[];
     navIsOpen: boolean;
     navMenuToggle: () => void;
-    toggle: () => void;
   };
 }
 
@@ -38,18 +37,13 @@ export const MobileNavBar = ({ props }: IProps) => {
           {props.navItem.map((item, index) => (
             <li key={item.id} className={styles.navItem}>
               {item.path ? (
-                <SubLink
-                  props={item}
-                  close={props.navMenuToggle}
-                  overlayClose={props.toggle}
-                />
+                <SubLink props={item} close={props.navMenuToggle} />
               ) : (
                 <SubMenu
                   info={item}
                   idx={index}
                   openSubMenu={openState[index]}
                   close={props.navMenuToggle}
-                  overlayClose={props.toggle}
                   handle={handleOnChange}
                 />
               )}

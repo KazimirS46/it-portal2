@@ -10,22 +10,13 @@ interface IProps {
   openSubMenu: boolean;
   close: () => void;
   handle: (position: number) => void;
-  overlayClose: () => void;
 }
 
-export const SubMenu = ({
-  info,
-  openSubMenu,
-  idx,
-  handle,
-  overlayClose,
-  close,
-}: IProps) => {
+export const SubMenu = ({ info, openSubMenu, idx, handle, close }: IProps) => {
   const pathname = usePathname();
 
   const onClickBtn = () => {
     close();
-    overlayClose();
   };
 
   return (

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { NavDesktop } from '../NavDesktop';
 import { NavMobile } from '../NavMobile';
 import { NavItemType } from '@/types/types';
@@ -13,17 +13,22 @@ interface IProps {
 export const Navigation = ({ props }: IProps) => {
   const [open, setOpen] = useState(false);
 
-  const overlayToggle = () => {
-    setOpen(!open);
-  };
-
   return (
     <>
-      <NavMobile props={props} toggle={overlayToggle} />
+      <NavMobile
+        props={props}
+        overOpen={() => setOpen(true)}
+        overClose={() => setOpen(false)}
+      />
 
       <NavDesktop props={props} />
 
-      {open && <Overlay />}
+      {open && (
+        <Overlay
+          overOpen={() => setOpen(true)}
+          overClose={() => setOpen(false)}
+        />
+      )}
     </>
   );
 };
