@@ -11,7 +11,13 @@ export default function Slide({ props }: IProps) {
     <>
       <div className={styles.slide}>
         <div className={styles.top}>
-          <Image src={props.imageUrl} width={440} height={184} alt='image' />
+          <Image
+            src={props.imageUrl}
+            width={440}
+            height={184}
+            alt='image'
+            className={styles.image}
+          />
         </div>
 
         <div className={styles.bottom}>

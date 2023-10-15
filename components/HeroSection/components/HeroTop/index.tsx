@@ -8,12 +8,15 @@ export function HeroTop() {
     <>
       <div className={styles.info}>
         <h1 className={styles.title}>
-          Портал цифровых решений <br></br>и инициатив Региона
+          Портал цифровых решений <br className={styles.br}></br>и инициатив
+          Региона
         </h1>
 
         <Link href={'/solutions'} className={styles.btnSearch}>
           Найти решение
         </Link>
+
+        <div className={styles.divider}></div>
 
         <p className={styles.description}>
           Инвестору поможем подобрать проект, разработчикам поможем рассказать о

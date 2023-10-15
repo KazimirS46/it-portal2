@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { NavDesktop } from '../NavDesktop';
 import { NavMobile } from '../NavMobile';
 import { NavItemType } from '@/types/types';
-import styles from './index.module.css';
+import { Overlay } from '../Overlay';
 
 interface IProps {
   props: NavItemType[];
@@ -23,7 +23,7 @@ export const Navigation = ({ props }: IProps) => {
 
       <NavDesktop props={props} />
 
-      {open && <div className={styles.overlay}></div>}
+      {open && <Overlay />}
     </>
   );
 };

@@ -74,3 +74,48 @@
   margin-left: 49.3%;
   margin-right: auto;
 }
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .wrapper::after {
+    top: 6px;
+    left: 0;
+    width: 40px;
+  }
+
+  .wrapper::before {
+    bottom: 0;
+    right: 0;
+    width: 72.8%;
+    height: 8px;
+    background: var(--desc-text-color3);
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 27.2%;
+  }
+
+  .info {
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+  }
+
+  .title {
+    margin-left: 15px;
+  }
+
+  .date {
+    margin-left: 42px;
+  }
+
+  .logo {
+    margin: 0;
+    margin-bottom: 1.25rem;
+  }
+}

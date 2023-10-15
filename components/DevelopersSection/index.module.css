@@ -19,3 +19,27 @@
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 100vw;
+    padding: 0;
+    padding-bottom: 60px;
+    overflow: hidden;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .sectionTitle {
+    font-size: 1.375rem;
+    line-height: 125%;
+    letter-spacing: 0.22px;
+    margin-bottom: 1rem;
+  }
+
+  .sliderContainer {
+    width: 93.295%;
+  }
+}

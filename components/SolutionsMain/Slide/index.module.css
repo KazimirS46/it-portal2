@@ -15,6 +15,7 @@
 .head {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: -6px;
   margin-bottom: 18px;
 }
@@ -49,4 +50,36 @@
 .info {
   font-weight: 400;
   -webkit-line-clamp: 2;
+}
+
+@media (max-width: 425px) {
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1.25rem;
+    padding-top: 1rem;
+  }
+
+  .head {
+    margin-bottom: auto;
+  }
+
+  .head h3 {
+    font-size: 17px;
+    line-height: 140%;
+  }
 }

@@ -34,3 +34,26 @@
   line-height: 130%;
   letter-spacing: 0.12px;
 }
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 100vw;
+    padding: 0;
+    padding-bottom: 60px;
+    overflow: hidden;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .head h2 {
+    font-size: 22px;
+    line-height: 125%;
+    letter-spacing: 0.3px;
+  }
+
+  .sliderContainer {
+    width: 93.295%;
+  }
+}

@@ -73,3 +73,24 @@
 .bottom li:hover {
   border-color: var(--desc-text-color2);
 }
+
+@media (max-width: 425px) {
+  .slide {
+    width: 100%;
+    padding: 22px;
+    padding-top: 24px;
+  }
+
+  .bottom h3 {
+    font-size: 17px;
+    line-height: 140%;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .bottom li {
+    font-size: 12px;
+  }
+}

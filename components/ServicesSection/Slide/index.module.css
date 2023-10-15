@@ -67,3 +67,17 @@
   line-height: 140%;
   color: var(--desc-text-color2);
 }
+
+@media (max-width: 425px) {
+  .slide {
+    width: 100%;
+    padding: 1.25rem;
+    padding-right: 1.5rem;
+  }
+
+  .slide h3 {
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.425px;
+  }
+}
