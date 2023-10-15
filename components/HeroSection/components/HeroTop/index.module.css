@@ -32,6 +32,10 @@
   transform: scale(1.01);
 }
 
+.divider {
+  display: none;
+}
+
 .description {
   max-width: 456px;
   margin-bottom: 11px;
@@ -72,4 +76,45 @@
 .image img {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 425px) {
+  .info {
+    order: 1;
+  }
+  .title {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 33px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  .br {
+    display: none;
+  }
+  .btnSearch {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .divider {
+    display: block;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #c6c6c6;
+  }
+  .description {
+    margin-bottom: 14px;
+  }
+  .image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 27px;
+  }
 }

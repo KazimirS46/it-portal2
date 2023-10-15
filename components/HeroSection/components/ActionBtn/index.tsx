@@ -163,7 +163,7 @@ export function ActionBtn() {
             {svg.solution}
 
             <span>
-              Подобрать<br></br> готовое решение
+              Подобрать<br className={styles.br}></br> готовое решение
             </span>
 
             <div className={styles.divider}></div>

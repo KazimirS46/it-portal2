@@ -10,6 +10,24 @@
 .container {
   padding-top: 113px;
 }
+
 .heroContent {
   position: relative;
+}
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .container {
+    padding-top: 5.75rem;
+  }
+
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
 }
