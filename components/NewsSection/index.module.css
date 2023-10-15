@@ -60,6 +60,7 @@
 
   .container {
     padding: 533px 1rem;
+    padding-bottom: 0;
   }
 
   .slide {

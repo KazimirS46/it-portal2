@@ -17,7 +17,7 @@
 }
 
 .linkTitle {
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 0.12px;
 }
 
@@ -30,4 +30,16 @@
 .sliderContainer {
   position: relative;
   margin-bottom: 68px;
+}
+
+@media (max-width: 425px) {
+  .navContainer h3 {
+    font-size: 1.31rem;
+    line-height: 132%;
+  }
+
+  .sliderContainer {
+    width: 93.295%;
+    margin-bottom: 40px;
+  }
 }

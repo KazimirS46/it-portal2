@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
+import { useResize } from '@/hooks/useResize';
 import newsButton from '../../public/button/newsButton.svg';
 import news from '../../public/jsons/news.json';
 
@@ -22,12 +23,14 @@ interface INews {
 }
 
 export default function News() {
+  const mobile: boolean = useResize();
+
   return (
     <section>
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <div className={styles.slideContainer}>
-            <Swiper navigation={true} modules={[Navigation]}>
+            <Swiper navigation={!mobile} modules={[Navigation]}>
               {news.map((news: INews) => (
                 <SwiperSlide key={news.id}>
                   <div className={styles.slide}>

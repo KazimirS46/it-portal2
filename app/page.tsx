@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Hero />
       <News />
-      {/* <SolutionsMain /> */}
+      <SolutionsMain />
       {/* <DeveloperSection /> */}
       {/* <ServicesSection /> */}
       {/* <EventsSection /> */}

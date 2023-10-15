@@ -55,3 +55,42 @@
   border: 1px solid var(--desc-text-color3);
   background-color: var(--desc-text-color3);
 }
+
+@media (max-width: 425px) {
+  .wrapper {
+    width: 100vw;
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0.22px;
+  }
+
+  .sectionFooter {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footerText {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .link {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+  }
+}
