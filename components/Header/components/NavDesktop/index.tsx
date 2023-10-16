@@ -46,6 +46,7 @@ export const NavDesktop = ({ props }: IProps) => {
           alt='LogIn Icon'
           width={25}
           height={25}
+          className={styles.btnImg}
         />
       </button>
     </div>
