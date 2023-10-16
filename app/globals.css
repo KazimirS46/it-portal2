@@ -27,7 +27,7 @@
 }
 
 html {
-  font-size: 1.11vw;
+  font-size: 1.11111vw;
 }
 
 body {
@@ -54,9 +54,6 @@ header {
 
 main {
   flex: 1;
-}
-
-section {
   background-color: var(--main-bgr-color);
 }
 
@@ -90,7 +87,7 @@ img {
   }
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
   html {
     font-size: 16px;
   }

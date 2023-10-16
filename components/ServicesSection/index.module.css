@@ -1,10 +1,9 @@
 .wrapper {
-  width: var(--wrap-max-width);
   margin: 0 auto;
 }
 
 .container {
-  padding-bottom: 96px;
+  padding-bottom: 6rem;
   color: var(--desc-text-color);
   font-family: var(--font-roboto);
   font-style: normal;
@@ -14,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
 }
 
 .head h2,
@@ -23,16 +22,28 @@
 }
 
 .head h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 120%;
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
 
 .head a {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 130%;
   letter-spacing: 0.12px;
+}
+
+@media (min-width: 1441px) {
+  .wrapper {
+    width: var(--wrap-max-width);
+  }
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding: 0 2.5rem;
+  }
 }
 
 @media (max-width: 425px) {

@@ -1,25 +1,25 @@
 .title {
-  width: 841px;
-  padding-top: 123px;
-  margin-bottom: 30px;
+  max-width: 52.5625rem;
+  padding-top: 7.6875rem;
+  margin-bottom: 1.875rem;
   font-family: var(--font-sf);
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 500;
 }
 
 .btnSearch {
   display: block;
-  width: 260px;
-  padding: 18px 70px;
-  margin-bottom: 180px;
+  width: 16.25rem;
+  padding: 1.125rem 4.375rem;
+  margin-bottom: 11.25rem;
   background-color: transparent;
-  border-radius: 40px;
-  border: 2px solid var(--desc-text-color3);
+  border-radius: 2.5rem;
+  border: 0.125rem solid var(--desc-text-color3);
   color: var(--desc-text-color3);
   font-family: var(--font-roboto);
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .btnSearch {
@@ -37,24 +37,24 @@
 }
 
 .description {
-  max-width: 456px;
-  margin-bottom: 11px;
+  max-width: 28rem;
+  margin-bottom: 0.6875rem;
   font-family: var(--font-sf);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 20.5px;
+  line-height: 1.281rem;
   letter-spacing: 0.42px;
   color: var(--desc-text-color2);
 }
 
 .contactInfo {
-  margin-bottom: 25px;
-  line-height: 20.5px;
+  margin-bottom: 1.5625rem;
+  line-height: 1.281rem;
   letter-spacing: 0.42px;
 }
 
 .contactInfo span {
-  line-height: 20.525px;
+  line-height: 1.281rem;
   letter-spacing: -3.29px;
 }
 
@@ -62,15 +62,15 @@
 .contactInfo span {
   color: var(--text-color);
   font-family: var(--font-sf);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 
 .image {
   position: absolute;
-  width: 559px;
+  width: 34.9375rem;
   top: 0;
-  left: 812px;
+  left: 50.75rem;
 }
 
 .image img {

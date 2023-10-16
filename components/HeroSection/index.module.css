@@ -3,16 +3,28 @@
 }
 
 .wrapper {
-  width: var(--wrap-max-width);
+  width: 90rem;
   margin: 0 auto;
 }
 
 .container {
-  padding-top: 113px;
+  padding-top: 7.0625rem;
 }
 
 .heroContent {
   position: relative;
+}
+
+@media (min-width: 1441px) {
+  .wrapper {
+    width: var(--wrap-max-width);
+  }
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding: 0 2.5rem;
+  }
 }
 
 @media (max-width: 425px) {

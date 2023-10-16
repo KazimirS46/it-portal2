@@ -22,4 +22,8 @@
   .mobile {
     display: none;
   }
+
+  .dropdownMenu {
+    display: none;
+  }
 }

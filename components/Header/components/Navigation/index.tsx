@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { NavDesktop } from '../NavDesktop';
 import { NavMobile } from '../NavMobile';
 import { NavItemType } from '@/types/types';
