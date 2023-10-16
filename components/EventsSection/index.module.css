@@ -1,18 +1,17 @@
 .wrapper {
-  width: var(--wrap-max-width);
   margin: 0 auto;
 }
 
 .container {
-  padding-bottom: 96px;
+  padding-bottom: 6rem;
   color: var(--desc-text-color);
   font-family: var(--font-roboto);
   font-style: normal;
 }
 
 .sectionTitle {
-  margin-bottom: 28px;
-  font-size: 30px;
+  margin-bottom: 1.75rem;
+  font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -24,7 +23,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
+}
+
+@media (min-width: 1441px) {
+  .wrapper {
+    width: var(--wrap-max-width);
+  }
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding: 0 2.5rem;
+  }
 }
 
 @media (max-width: 425px) {

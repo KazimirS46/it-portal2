@@ -54,9 +54,6 @@ header {
 
 main {
   flex: 1;
-}
-
-section {
   background-color: var(--main-bgr-color);
 }
 

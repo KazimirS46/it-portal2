@@ -12,7 +12,6 @@ interface IProps {
 
 export default function Slider({ data }: IProps) {
   const slidesPerView: number = useResize() ? 1 : 3;
-  // const between: number = useResize() ? 0 : 8;
   return (
     <>
       <Swiper slidesPerView={slidesPerView} spaceBetween={8}>
