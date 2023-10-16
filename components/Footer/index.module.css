@@ -9,7 +9,7 @@
   position: relative;
   width: var(--max-width);
   margin: 0 auto;
-  padding-bottom: 2.25rem;
+  padding-bottom: 0.5rem;
 }
 
 .wrapper::before {
@@ -95,8 +95,8 @@
 
   .wrapper::before {
     bottom: 0;
-    right: 0;
-    width: 72.8%;
+    left: 6.375rem;
+    width: 17.063rem;
     height: 8px;
     background: var(--desc-text-color3);
   }
@@ -122,6 +122,6 @@
 
   .logo {
     margin: 0;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.9375rem;
   }
 }

@@ -68,6 +68,7 @@
 @media (max-width: 425px) {
   .wrapper {
     width: 100vw;
+    padding: 0;
   }
 
   .container {

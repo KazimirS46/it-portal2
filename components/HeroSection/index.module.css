@@ -30,6 +30,7 @@
 @media (max-width: 425px) {
   .wrapper {
     width: 100vw;
+    padding: 0;
     margin: 0 auto;
   }
 
