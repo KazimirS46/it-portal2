@@ -5,6 +5,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { useResize } from '@/hooks/useResize';
+import { getAllData } from '@/lib/getAllData';
 import newsButton from '../../public/button/newsButton.svg';
 import news from '../../public/jsons/news.json';
 

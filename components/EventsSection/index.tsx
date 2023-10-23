@@ -1,9 +1,16 @@
 import styles from './index.module.css';
-import events from './events.json';
 import Link from 'next/link';
 import Slider from './Slider';
 
-export default function EventsSection() {
+interface IProps {
+  id: number;
+  imageUrl: string;
+  title: string;
+  date: string;
+  description: string;
+}
+
+export default function EventsSection({ props }: { props: IProps[] }) {
   return (
     <section>
       <div className={styles.wrapper}>
@@ -13,7 +20,7 @@ export default function EventsSection() {
             <Link href='/events'>Показать все мероприятия</Link>
           </div>
           <div className={styles.sliderContainer}>
-            <Slider events={events} />
+            <Slider events={props} />
           </div>
         </div>
       </div>

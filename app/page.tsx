@@ -5,8 +5,24 @@ import News from '@/components/NewsSection';
 import ProjectsSection from '@/components/ProjectSection';
 import ServicesSection from '@/components/ServicesSection';
 import SolutionsMain from '@/components/SolutionsMain';
+import { getAllData } from '@/lib/getAllData';
 
-export default function Home() {
+interface IProps {
+  id: number;
+  imageUrl: string;
+  title: string;
+  date: string;
+  description: string;
+}
+
+type Data = {
+  id: string;
+  data: any;
+}[];
+
+export default async function Home() {
+  const data: Data = await getAllData();
+
   return (
     <>
       <Hero />
@@ -14,7 +30,9 @@ export default function Home() {
       <SolutionsMain />
       <DeveloperSection />
       <ServicesSection />
-      <EventsSection />
+      <EventsSection
+        props={data.find((i: any) => i.id === 'events')?.data as IProps[]}
+      />
       <ProjectsSection />
     </>
   );

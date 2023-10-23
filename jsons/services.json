@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "title": "Java",
+    "serviceName": "Development"
+  },
+  {
+    "id": 2,
+    "title": ".Net",
+    "serviceName": "Development"
+  },
+  {
+    "id": 3,
+    "title": "REACT",
+    "serviceName": "Development"
+  },
+  {
+    "id": 4,
+    "title": "php",
+    "serviceName": "Development"
+  },
+  {
+    "id": 5,
+    "title": "jaVAsCRIPT",
+    "serviceName": "Development"
+  },
+  {
+    "id": 6,
+    "title": "html",
+    "serviceName": "Development"
+  },
+  {
+    "id": 7,
+    "title": "aNGULAR",
+    "serviceName": "Development"
+  },
+  {
+    "id": 8,
+    "title": "gO",
+    "serviceName": "Development"
+  },
+  {
+    "id": 9,
+    "title": "sWIFT",
+    "serviceName": "Development"
+  },
+  {
+    "id": 10,
+    "title": "c++",
+    "serviceName": "Development"
+  },
+  {
+    "id": 11,
+    "title": "pHYTON",
+    "serviceName": "Development"
+  },
+  {
+    "id": 12,
+    "title": "c+",
+    "serviceName": "Development"
+  },
+  {
+    "id": 13,
+    "title": "kOTLIN",
+    "serviceName": "Development"
+  },
+  {
+    "id": 14,
+    "title": "rUST",
+    "serviceName": "Development"
+  },
+  {
+    "id": 15,
+    "title": "Mobile",
+    "serviceName": "Development"
+  },
+  {
+    "id": 16,
+    "title": "Web",
+    "serviceName": "Development"
+  },
+  {
+    "id": 17,
+    "title": "Enterprise",
+    "serviceName": "Development"
+  },
+  {
+    "id": 18,
+    "title": "Games",
+    "serviceName": "Development"
+  },
+  {
+    "id": 19,
+    "title": "Database",
+    "serviceName": "Development"
+  },
+  {
+    "id": 20,
+    "title": "Data Security",
+    "serviceName": "Development"
+  },
+  {
+    "id": 21,
+    "title": "Data Security",
+    "serviceName": "Development"
+  },
+  {
+    "id": 22,
+    "title": "Manual testing",
+    "serviceName": "Quality assurance"
+  },
+  {
+    "id": 23,
+    "title": "Automate testing",
+    "serviceName": "Quality assurance"
+  },
+  {
+    "id": 24,
+    "title": "Android SDK",
+    "serviceName": "Quality assurance"
+  },
+  {
+    "id": 25,
+    "title": "ZAP",
+    "serviceName": "Quality assurance"
+  },
+  {
+    "id": 26,
+    "title": "Automate testing",
+    "serviceName": "Quality assurance"
+  },
+  {
+    "id": 27,
+    "title": "Android SDK",
+    "serviceName": "Quality assurance"
+  },
+  {
+    "id": 28,
+    "title": "Oracle",
+    "serviceName": "DevOps"
+  },
+  {
+    "id": 29,
+    "title": "MySQL",
+    "serviceName": "DevOps"
+  },
+  {
+    "id": 30,
+    "title": "MySQL",
+    "serviceName": "DevOps"
+  },
+  {
+    "id": 31,
+    "title": "1C",
+    "serviceName": "DevOps"
+  }
+]

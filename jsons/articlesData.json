@@ -1,0 +1,194 @@
+[
+  {
+    "id": 0,
+    "title": "Covid-19",
+    "linkName": "Показать все решения категории",
+    "path": "/solutions",
+    "slides": [
+      {
+        "id": 0,
+        "imageUrl": "/image/covid0.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Doctor Call",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 1,
+        "imageUrl": "/image/covid1.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "HSE RMS",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/image/covid2.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Brealit",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/image/covid0.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Doctor EECall",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/image/covid1.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Doctor 234234Call",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 5,
+        "imageUrl": "/image/covid2.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Doctor3465346346 Call",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "E-learning & Education",
+    "linkName": "",
+    "path": "/",
+    "slides": [
+      {
+        "id": 0,
+        "imageUrl": "/image/learning0.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "eventicious",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 1,
+        "imageUrl": "/image/learning1.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Сетевой город. Образование",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/image/learning2.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "HSE LMS",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Healthcare",
+    "linkName": "",
+    "path": "/",
+    "slides": [
+      {
+        "id": 0,
+        "imageUrl": "/image/helthcare0.png",
+        "logoUrl": "/image/logo.png",
+        "title": "Pirogov",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Agro-idustries",
+    "linkName": "",
+    "path": "/",
+    "slides": [
+      {
+        "id": 0,
+        "imageUrl": "/image/agro0.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "I-can-farm",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 1,
+        "imageUrl": "/image/agro1.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Smart agro platform",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Industry & Logistic",
+    "linkName": "Показать все решения категории",
+    "path": "/solutions",
+    "slides": [
+      {
+        "id": 0,
+        "imageUrl": "/image/industry0.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Thesis",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 1,
+        "imageUrl": "/image/industry1.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Cuba platform",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/image/industry2.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Sherlock taxi",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!",
+        "info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, placeat veniam est ad reprehenderit unde!"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Средства разработки",
+    "linkName": "",
+    "path": "/",
+    "slides": [
+      {
+        "id": 0,
+        "imageUrl": "/image/development.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Angular",
+        "description": "Angular - это фреймворк с открытым исходным кодом, который используется для разработки одностраничного приложения (SPA)",
+        "info": "Он расширяет HTML-код в приложении и интерпретирует атрибуты для выполнения привязки данных."
+      },
+      {
+        "id": 1,
+        "imageUrl": "/image/development.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "React",
+        "description": "Созданный Facebook фреймворк React",
+        "info": "н используется для разработки и управления динамическим пользовательским интерфейсом веб-страниц с высоким входящим трафиком. В нем используется виртуальный DOM, и, следовательно, интеграция с любым приложением становится более простой."
+      },
+      {
+        "id": 2,
+        "imageUrl": "/image/development.jpg",
+        "logoUrl": "/image/logo.png",
+        "title": "Vue.js",
+        "description": "Это надежная платформа для кроссплатформенной разработки.",
+        "info": "Несмотря на то, что этот фреймворк JavaScript был разработан в 2016 году, он уже вышел на рынок и доказал свою ценность, предлагая множество функций. Режим двойной интеграции является одной из наиболее привлекательных функций для создания SPA высокого класса."
+      }
+    ]
+  }
+]

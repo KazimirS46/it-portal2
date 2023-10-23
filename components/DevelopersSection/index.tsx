@@ -1,5 +1,5 @@
 import styles from './index.module.css';
-import data from './data.json';
+import developers from './developers.json';
 import Slider from './Slider';
 
 export default function DeveloperSection() {
@@ -7,9 +7,9 @@ export default function DeveloperSection() {
     <section>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>{data.title}</h2>
+          <h2 className={styles.sectionTitle}>{developers.title}</h2>
           <div className={styles.sliderContainer}>
-            <Slider props={data} />
+            <Slider props={developers} />
           </div>
         </div>
       </div>
