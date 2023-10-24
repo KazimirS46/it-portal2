@@ -10,6 +10,7 @@ export default function Contacts() {
   return (
     <div className={styles.wrapper}>
       <h1>Контакты</h1>
+
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
         aperiam debitis voluptatum ex eius recusandae distinctio cum ratione

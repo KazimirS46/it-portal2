@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import heroImage from '../../../../public/image/headerImage.png';
-import styles from './index.module.css';
 import Link from 'next/link';
+import heroImage from '@/public/image/headerImage.png';
+import styles from './index.module.css';
 
 export function HeroTop() {
   return (
@@ -12,7 +12,9 @@ export function HeroTop() {
           Региона
         </h1>
 
-        <Link href={'/solutions'} className={styles.btnSearch}>
+        <Link
+          href={'/solutions'}
+          className={styles.btnSearch}>
           Найти решение
         </Link>
 
@@ -30,7 +32,13 @@ export function HeroTop() {
       </div>
 
       <div className={styles.image}>
-        <Image src={heroImage} alt='' width={559} height={616} priority />
+        <Image
+          src={heroImage}
+          alt=''
+          width={559}
+          height={616}
+          priority
+        />
       </div>
     </>
   );

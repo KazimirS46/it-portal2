@@ -12,6 +12,7 @@ export default function Solutions() {
     <section className={styles.wrapper}>
       <div className={styles.headContainer}>
         <h2>IT-Решения</h2>
+
         <div className={styles.dropDownMenu}>
           <DropMenu props={[]} />
         </div>

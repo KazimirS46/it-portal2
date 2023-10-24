@@ -14,8 +14,10 @@ export default function Slider({ events }: IProps) {
   const perView: number = useResize() ? 1 : 3;
   return (
     <>
-      <Swiper slidesPerView={perView} spaceBetween={8}>
-        {events.map((event) => (
+      <Swiper
+        slidesPerView={perView}
+        spaceBetween={8}>
+        {events.map(event => (
           <SwiperSlide key={event.id}>{<Slide data={event} />}</SwiperSlide>
         ))}
       </Swiper>

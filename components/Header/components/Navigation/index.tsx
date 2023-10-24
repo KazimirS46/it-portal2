@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { NavDesktop } from '../NavDesktop';
 import { NavMobile } from '../NavMobile';
-import { NavItemType } from '@/types/types';
 import { Overlay } from '../Overlay';
+import { NavItemType } from '@/types/types';
 
 interface IProps {
   props: NavItemType[];

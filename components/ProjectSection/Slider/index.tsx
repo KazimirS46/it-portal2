@@ -14,8 +14,10 @@ export default function Slider({ projects }: IProps) {
   const perView: number = useResize() ? 1 : 4;
   return (
     <>
-      <Swiper slidesPerView={perView} spaceBetween={8}>
-        {projects.map((project) => (
+      <Swiper
+        slidesPerView={perView}
+        spaceBetween={8}>
+        {projects.map(project => (
           <SwiperSlide key={project.id}>{<Slide data={project} />}</SwiperSlide>
         ))}
       </Swiper>

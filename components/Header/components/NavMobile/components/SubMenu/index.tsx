@@ -20,7 +20,9 @@ export const SubMenu = ({ info, openSubMenu, idx, handle, close }: IProps) => {
   };
 
   return (
-    <div className={styles.navLink} onClick={() => handle(idx)}>
+    <div
+      className={styles.navLink}
+      onClick={() => handle(idx)}>
       <div className={styles.title}>
         <span>{info.title}</span>
 
@@ -35,8 +37,10 @@ export const SubMenu = ({ info, openSubMenu, idx, handle, close }: IProps) => {
 
       {openSubMenu && (
         <ul className={styles.subList}>
-          {info.submenu!.map((subItem) => (
-            <li key={subItem.id} className={styles.subItem}>
+          {info.submenu!.map(subItem => (
+            <li
+              key={subItem.id}
+              className={styles.subItem}>
               <Link
                 href={subItem.path}
                 className={`${styles.sublink} ${

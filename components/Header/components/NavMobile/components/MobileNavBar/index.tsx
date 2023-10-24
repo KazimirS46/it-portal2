@@ -17,12 +17,12 @@ export const MobileNavBar = ({ props }: IProps) => {
   let menuOpen = props.navIsOpen && styles.active;
 
   const [openState, setOpenState] = useState(
-    new Array(props.navItem.length).fill(false)
+    new Array(props.navItem.length).fill(false),
   );
 
   const handleOnChange = (position: number) => {
     const updateOpenState = openState.map((item, index) =>
-      index === position ? (item = !item) : (item = false)
+      index === position ? (item = !item) : (item = false),
     );
 
     setOpenState(updateOpenState);
@@ -35,9 +35,14 @@ export const MobileNavBar = ({ props }: IProps) => {
 
         <ul className={styles.navList}>
           {props.navItem.map((item, index) => (
-            <li key={item.id} className={styles.navItem}>
+            <li
+              key={item.id}
+              className={styles.navItem}>
               {item.path ? (
-                <SubLink props={item} close={props.navMenuToggle} />
+                <SubLink
+                  props={item}
+                  close={props.navMenuToggle}
+                />
               ) : (
                 <SubMenu
                   info={item}

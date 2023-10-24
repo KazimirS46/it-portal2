@@ -11,7 +11,7 @@ export default function SolutionsMain() {
           <h2 className={styles.sectionTitle}>Решения</h2>
 
           <ul>
-            {dataItems.map((data) => (
+            {dataItems.map(data => (
               <li key={data.id}>
                 <MainArticle props={data} />
               </li>
@@ -23,7 +23,9 @@ export default function SolutionsMain() {
 
             <div className={styles.line}></div>
 
-            <Link href='/solutions' className={styles.link}>
+            <Link
+              href='/solutions'
+              className={styles.link}>
               <span>Подобрать решение</span>
             </Link>
           </div>

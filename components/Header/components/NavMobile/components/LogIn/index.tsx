@@ -4,7 +4,9 @@ import styles from './index.module.css';
 export const LogIn = () => {
   return (
     <div className={styles.logContainer}>
-      <button type='button' className={styles.logInBtn}>
+      <button
+        type='button'
+        className={styles.logInBtn}>
         <span>logIn</span>
 
         <Image

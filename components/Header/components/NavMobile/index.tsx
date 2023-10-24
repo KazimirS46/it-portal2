@@ -17,7 +17,7 @@ export const NavMobile = ({ props, overClose, overOpen }: IProps) => {
   const navItem = props;
 
   const navMenuToggle = () => {
-    setIsOpen((prev) => !prev);
+    setIsOpen(prev => !prev);
   };
 
   useEffect(() => {
@@ -29,7 +29,9 @@ export const NavMobile = ({ props, overClose, overOpen }: IProps) => {
   return (
     <>
       <div className={styles.mobile}>
-        <Link href={'/'} className={styles.logoLink}>
+        <Link
+          href={'/'}
+          className={styles.logoLink}>
           <Image
             alt=''
             src={'/logo/mainLogo.png'}
@@ -40,7 +42,10 @@ export const NavMobile = ({ props, overClose, overOpen }: IProps) => {
           />
         </Link>
 
-        <DropdownMenuButton isOpen={navIsOpen} toggle={navMenuToggle} />
+        <DropdownMenuButton
+          isOpen={navIsOpen}
+          toggle={navMenuToggle}
+        />
       </div>
 
       <div className={styles.dropdownMenu}>

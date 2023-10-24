@@ -17,8 +17,10 @@ export default function EventsSection({ props }: { props: IProps[] }) {
         <div className={styles.container}>
           <div className={styles.head}>
             <h2 className={styles.sectionTitle}>Мероприятия</h2>
+
             <Link href='/events'>Показать все мероприятия</Link>
           </div>
+
           <div className={styles.sliderContainer}>
             <Slider events={props} />
           </div>

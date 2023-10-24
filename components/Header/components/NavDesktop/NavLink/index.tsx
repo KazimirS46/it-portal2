@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import styles from './index.module.css';
 import { NavItemType } from '@/types/types';
+import styles from './index.module.css';
 
 interface IProps {
   props: NavItemType;
@@ -8,7 +8,9 @@ interface IProps {
 
 export const NavLink = ({ props }: IProps) => {
   return (
-    <Link href={props.path!} className={styles.navLink}>
+    <Link
+      href={props.path!}
+      className={styles.navLink}>
       {props.title}
     </Link>
   );

@@ -24,7 +24,12 @@ export default function Slide({ props }: IProps) {
           <div className={styles.head}>
             <h3>{props.title}</h3>
 
-            <Image alt='Logo' src={props.logoUrl} width={36} height={36} />
+            <Image
+              alt='Logo'
+              src={props.logoUrl}
+              width={36}
+              height={36}
+            />
           </div>
 
           <p className={styles.description}>{props.description}</p>

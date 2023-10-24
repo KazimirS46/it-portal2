@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import styles from './index.module.css';
-import servicesList from './services.json';
 import ServicesSlider from './Slider';
+import servicesList from './services.json';
+import styles from './index.module.css';
 
 export default function ServicesSection() {
   return (

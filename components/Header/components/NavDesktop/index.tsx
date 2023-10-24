@@ -14,7 +14,9 @@ export const NavDesktop = ({ props }: IProps) => {
 
   return (
     <div className={styles.navDesktopWrapper}>
-      <Link href={'/'} className={styles.logoLink}>
+      <Link
+        href={'/'}
+        className={styles.logoLink}>
         <Image
           alt=''
           src={'/logo/mainLogo.png'}
@@ -26,8 +28,10 @@ export const NavDesktop = ({ props }: IProps) => {
 
       <nav>
         <ul className={styles.navList}>
-          {navItem.map((item) => (
-            <li key={item.id} className={styles.navItem}>
+          {navItem.map(item => (
+            <li
+              key={item.id}
+              className={styles.navItem}>
               {item.path ? (
                 <NavLink props={item} />
               ) : (
@@ -38,7 +42,9 @@ export const NavDesktop = ({ props }: IProps) => {
         </ul>
       </nav>
 
-      <button type='button' className={styles.logInBtn}>
+      <button
+        type='button'
+        className={styles.logInBtn}>
         <span>logIn</span>
 
         <Image

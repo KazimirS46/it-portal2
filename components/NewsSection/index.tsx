@@ -5,9 +5,8 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { useResize } from '@/hooks/useResize';
-import { getAllData } from '@/lib/getAllData';
-import newsButton from '../../public/button/newsButton.svg';
-import news from '../../public/jsons/news.json';
+import newsButton from '@/public/button/newsButton.svg';
+import news from '@/public/jsons/news.json';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -31,7 +30,9 @@ export default function News() {
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <div className={styles.slideContainer}>
-            <Swiper navigation={!mobile} modules={[Navigation]}>
+            <Swiper
+              navigation={!mobile}
+              modules={[Navigation]}>
               {news.map((news: INews) => (
                 <SwiperSlide key={news.id}>
                   <div className={styles.slide}>
@@ -47,7 +48,11 @@ export default function News() {
 
                       <p>{news.description}</p>
 
-                      <Image src={newsButton} width={440} alt='button' />
+                      <Image
+                        src={newsButton}
+                        width={440}
+                        alt='button'
+                      />
                     </article>
                   </div>
                 </SwiperSlide>

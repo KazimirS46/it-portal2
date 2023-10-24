@@ -5,6 +5,8 @@ import { usePathname } from 'next/navigation';
 import { NavItemType } from '@/types/types';
 import styles from './index.module.css';
 
+type Style = (path: string) => string;
+
 interface IProps {
   props: NavItemType;
 }
@@ -14,11 +16,23 @@ export const NavSubMenu = ({ props }: IProps) => {
 
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
+  const style: Style = path => {
+    return pathname !== path ? styles.sublink : styles.activeLink;
+  };
+
+  const toggleMenu = () => {
+    setMenuIsOpen(!menuIsOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuIsOpen(false);
+  };
+
   return (
     <div
       className={styles.navLink}
-      onClick={() => setMenuIsOpen(!menuIsOpen)}
-      onMouseLeave={() => setMenuIsOpen(false)}>
+      onClick={toggleMenu}
+      onMouseLeave={closeMenu}>
       <span>{props.title}</span>
 
       <Image
@@ -32,14 +46,14 @@ export const NavSubMenu = ({ props }: IProps) => {
       {menuIsOpen && (
         <ul
           className={styles.subList}
-          onMouseLeave={() => setMenuIsOpen(false)}>
-          {props.submenu!.map((subItem) => (
-            <li key={subItem.id} className={styles.subItem}>
+          onMouseLeave={closeMenu}>
+          {props.submenu!.map(subItem => (
+            <li
+              key={subItem.id}
+              className={styles.subItem}>
               <Link
                 href={subItem.path}
-                className={
-                  pathname !== subItem.path ? styles.sublink : styles.activeLink
-                }>
+                className={style(subItem.path)}>
                 {subItem.title}
               </Link>
             </li>

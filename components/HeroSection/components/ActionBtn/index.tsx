@@ -43,8 +43,16 @@ export function ActionBtn() {
           strokeWidth='1.5'
           strokeMiterlimit='10'
         />
-        <path d='M11.8418 3.55246V0' stroke='#0097FF' strokeWidth='1.5' />
-        <path d='M11.8418 23.6833V20.1309' stroke='#0097FF' strokeWidth='1.5' />
+        <path
+          d='M11.8418 3.55246V0'
+          stroke='#0097FF'
+          strokeWidth='1.5'
+        />
+        <path
+          d='M11.8418 23.6833V20.1309'
+          stroke='#0097FF'
+          strokeWidth='1.5'
+        />
         <path
           d='M3.55246 11.8418L0 11.8418'
           stroke='#0097FF'
@@ -125,8 +133,16 @@ export function ActionBtn() {
           strokeWidth='1.5'
           strokeMiterlimit='10'
         />
-        <path d='M10.4736 9.28906V15.2098' stroke='#0097FF' strokeWidth='1.5' />
-        <path d='M10.4736 7.51256V5.73633' stroke='#0097FF' strokeWidth='1.5' />
+        <path
+          d='M10.4736 9.28906V15.2098'
+          stroke='#0097FF'
+          strokeWidth='1.5'
+        />
+        <path
+          d='M10.4736 7.51256V5.73633'
+          stroke='#0097FF'
+          strokeWidth='1.5'
+        />
       </svg>
     ),
 
@@ -146,9 +162,21 @@ export function ActionBtn() {
           stroke='#0097FF'
           strokeWidth='1.5'
         />
-        <path d='M1.18457 8.28906H17.7627' stroke='#0097FF' strokeWidth='1.5' />
-        <path d='M5 0V3' stroke='#0097FF' strokeWidth='1.5' />
-        <path d='M14 0V3' stroke='#0097FF' strokeWidth='1.5' />
+        <path
+          d='M1.18457 8.28906H17.7627'
+          stroke='#0097FF'
+          strokeWidth='1.5'
+        />
+        <path
+          d='M5 0V3'
+          stroke='#0097FF'
+          strokeWidth='1.5'
+        />
+        <path
+          d='M14 0V3'
+          stroke='#0097FF'
+          strokeWidth='1.5'
+        />
       </svg>
     ),
   };
@@ -159,7 +187,9 @@ export function ActionBtn() {
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
 
-          <Link href={'/solutions'} className={styles.actionBtn}>
+          <Link
+            href={'/solutions'}
+            className={styles.actionBtn}>
             {svg.solution}
 
             <span>
@@ -173,7 +203,9 @@ export function ActionBtn() {
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
 
-          <Link href={'/services'} className={styles.actionBtn}>
+          <Link
+            href={'/services'}
+            className={styles.actionBtn}>
             {svg.services}
 
             <span>Заказать разработку</span>
@@ -185,7 +217,9 @@ export function ActionBtn() {
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
 
-          <Link href={'/contacts'} className={styles.actionBtn}>
+          <Link
+            href={'/contacts'}
+            className={styles.actionBtn}>
             {svg.contacts}
 
             <span>Инвестировать</span>
@@ -197,7 +231,9 @@ export function ActionBtn() {
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
 
-          <Link href={'/about'} className={styles.actionBtn}>
+          <Link
+            href={'/about'}
+            className={styles.actionBtn}>
             {svg.about}
 
             <span>Получить информацию о Регионе</span>
@@ -209,7 +245,9 @@ export function ActionBtn() {
         <li className={styles.actionBtnItem}>
           <div className={styles.background}></div>
 
-          <Link href={'/events'} className={styles.actionBtn}>
+          <Link
+            href={'/events'}
+            className={styles.actionBtn}>
             {svg.events}
 
             <span>Участвовать в IT-мероприятиях</span>

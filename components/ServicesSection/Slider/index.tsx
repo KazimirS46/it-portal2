@@ -14,8 +14,10 @@ export default function ServicesSlider({ services }: IProps) {
   const perView: number = useResize() ? 1 : 4;
   return (
     <>
-      <Swiper slidesPerView={perView} spaceBetween={8}>
-        {services.map((service) => (
+      <Swiper
+        slidesPerView={perView}
+        spaceBetween={8}>
+        {services.map(service => (
           <SwiperSlide key={service.id}>{<Slide data={service} />}</SwiperSlide>
         ))}
       </Swiper>
