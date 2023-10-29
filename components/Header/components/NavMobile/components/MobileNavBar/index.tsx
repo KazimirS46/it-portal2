@@ -2,12 +2,11 @@ import { useState } from 'react';
 import { SubLink } from '../SubLink';
 import { SubMenu } from '../SubMenu';
 import { LogIn } from '../LogIn';
-import { NavItemType } from '@/types/types';
 import styles from './index.module.css';
+import { routes } from '@/components/Header/routes';
 
 interface IProps {
   props: {
-    navItem: NavItemType[];
     navIsOpen: boolean;
     navMenuToggle: () => void;
   };
@@ -17,7 +16,7 @@ export const MobileNavBar = ({ props }: IProps) => {
   let menuOpen = props.navIsOpen && styles.active;
 
   const [openState, setOpenState] = useState(
-    new Array(props.navItem.length).fill(false),
+    new Array(routes.length).fill(false),
   );
 
   const handleOnChange = (position: number) => {
@@ -34,7 +33,7 @@ export const MobileNavBar = ({ props }: IProps) => {
         <LogIn />
 
         <ul className={styles.navList}>
-          {props.navItem.map((item, index) => (
+          {routes.map((item, index) => (
             <li
               key={item.id}
               className={styles.navItem}>

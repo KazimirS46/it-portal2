@@ -3,18 +3,15 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { DropdownMenuButton } from './components/DropdownMenuButton';
 import { MobileNavBar } from './components/MobileNavBar';
-import { NavItemType } from '@/types/types';
 import styles from './index.module.css';
 
 interface IProps {
-  props: NavItemType[];
   overOpen: () => void;
   overClose: () => void;
 }
 
-export const NavMobile = ({ props, overClose, overOpen }: IProps) => {
+export const NavMobile = ({ overClose, overOpen }: IProps) => {
   const [navIsOpen, setIsOpen] = useState<boolean>(false);
-  const navItem = props;
 
   const navMenuToggle = () => {
     setIsOpen(prev => !prev);
@@ -49,7 +46,7 @@ export const NavMobile = ({ props, overClose, overOpen }: IProps) => {
       </div>
 
       <div className={styles.dropdownMenu}>
-        <MobileNavBar props={{ navItem, navIsOpen, navMenuToggle }} />
+        <MobileNavBar props={{ navIsOpen, navMenuToggle }} />
       </div>
     </>
   );

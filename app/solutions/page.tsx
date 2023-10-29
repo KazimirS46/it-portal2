@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
-import styles from './index.module.css';
-import { DropMenu } from '@/components/DropMenu';
+import SolutionsMain from '@/components/SolutionsMain';
 
 export const metadata: Metadata = {
   title: 'IT-Решения',
@@ -8,15 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function Solutions() {
-  return (
-    <section className={styles.wrapper}>
-      <div className={styles.headContainer}>
-        <h2>IT-Решения</h2>
-
-        <div className={styles.dropDownMenu}>
-          <DropMenu props={[]} />
-        </div>
-      </div>
-    </section>
-  );
+  return <SolutionsMain />;
 }

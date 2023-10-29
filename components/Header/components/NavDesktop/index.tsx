@@ -2,16 +2,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { NavLink } from './NavLink';
 import { NavSubMenu } from './NavSubMenu';
-import { NavItemType } from '@/types/types';
+import { routes } from '../../routes';
 import styles from './index.module.css';
 
-interface IProps {
-  props: NavItemType[];
-}
-
-export const NavDesktop = ({ props }: IProps) => {
-  const navItem = props;
-
+export const NavDesktop = () => {
   return (
     <div className={styles.navDesktopWrapper}>
       <Link
@@ -28,7 +22,7 @@ export const NavDesktop = ({ props }: IProps) => {
 
       <nav>
         <ul className={styles.navList}>
-          {navItem.map(item => (
+          {routes.map(item => (
             <li
               key={item.id}
               className={styles.navItem}>

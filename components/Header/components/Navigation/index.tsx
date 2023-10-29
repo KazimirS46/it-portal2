@@ -4,29 +4,30 @@ import { useState } from 'react';
 import { NavDesktop } from '../NavDesktop';
 import { NavMobile } from '../NavMobile';
 import { Overlay } from '../Overlay';
-import { NavItemType } from '@/types/types';
 
-interface IProps {
-  props: NavItemType[];
-}
-
-export const Navigation = ({ props }: IProps) => {
+export const Navigation = () => {
   const [open, setOpen] = useState(false);
+  const openOverlay = () => {
+    setOpen(true);
+  };
+
+  const closeOverlay = () => {
+    setOpen(false);
+  };
 
   return (
     <>
       <NavMobile
-        props={props}
-        overOpen={() => setOpen(true)}
-        overClose={() => setOpen(false)}
+        overOpen={openOverlay}
+        overClose={closeOverlay}
       />
 
-      <NavDesktop props={props} />
+      <NavDesktop />
 
       {open && (
         <Overlay
-          overOpen={() => setOpen(true)}
-          overClose={() => setOpen(false)}
+          overOpen={openOverlay}
+          overClose={closeOverlay}
         />
       )}
     </>
